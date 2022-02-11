@@ -50,6 +50,7 @@ function App() {
           container.current.style.backgroundColor='#303030';
           contact.current.style.backgroundColor='#303030';
           section4.current.style.backgroundColor='#303030';
+          section4.current.style.color='white';
 
           android.current.style.backgroundColor='#383838';
           php.current.style.backgroundColor='#383838';
@@ -83,6 +84,8 @@ function App() {
           container.current.style.backgroundColor='white';
           contact.current.style.backgroundColor='white';
           section4.current.style.backgroundColor='white';
+          section4.current.style.color='black';
+
           android.current.style.backgroundColor='white';
           php.current.style.backgroundColor='white';
           java.current.style.backgroundColor='white';
