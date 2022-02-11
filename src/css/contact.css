@@ -63,7 +63,7 @@
     padding: 0;
     margin: 20px auto 0 auto;
 }  
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 850px) {
     .centrado{
         margin:10px auto;
         display:block;

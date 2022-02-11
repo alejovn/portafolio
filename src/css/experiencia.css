@@ -121,7 +121,7 @@
   margin: 0 auto;
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 850px) {
   .carousel-content{
     width: 250px;
     height: 1000px;
