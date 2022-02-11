@@ -1,0 +1,101 @@
+.centrado{
+    margin:10px auto;
+    display:block;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 5px;
+    width: 300px;
+    border-radius: 100%;
+}
+
+.content{
+    border-radius: 10px;
+    -webkit-box-shadow: 0 0 5px 2px gray;
+  -moz-box-shadow: 0 0 5px 2px gray;
+  box-shadow: 0 0 5px 2px gray;
+}
+.content h1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.contac  {
+    list-style: none;
+    padding-left: 0;
+}
+  
+
+.l-br {
+    display: block;
+    color: transparent;
+}
+.l-br-c {
+    display: block;
+    color: transparent;
+}
+
+.contact-h3{
+    font-size: 30px;
+    color: black;
+    margin-left: 25px;
+    margin-bottom: 0%;
+}
+
+.quien-soy {
+    text-align: justify;
+    font-size: 20px;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+.quien-soy p{
+    padding: 30px;
+}
+.titulo-quien-soy{
+    font-size: 14px;
+    text-shadow: 0.1rem 0.1rem 0.1rem red;
+}
+
+
+.linea-c{
+    border-top: 1px solid black;
+    height: 2px;
+    max-width: 350px;
+    padding: 0;
+    margin: 20px auto 0 auto;
+}  
+@media screen and (max-width: 600px) {
+    .centrado{
+        margin:10px auto;
+        display:block;
+        width: 300px;
+    }
+    .contac li{
+        font-size: 18px;
+    }
+    .contac li span{
+        font-size: 16px;
+    }
+
+    .l-br {
+        display: none;
+    }
+    .contac li:before {
+        left: 20px;
+    }
+    .contac li{
+        padding-left: 45px;
+        line-height : 24px;
+    }
+    .quien-soy {
+        margin-left: 15px;
+        margin-right: 15px;
+    }
+    .quien-soy p{
+        padding: 15px;
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+      
+}
+  
+  

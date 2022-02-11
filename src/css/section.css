@@ -1,0 +1,87 @@
+.academico{
+    border-radius: 10px;
+  -webkit-box-shadow: 0 0 5px 2px gray;
+  -moz-box-shadow: 0 0 5px 2px gray;
+  box-shadow: 0 0 5px 2px gray;
+}
+.academico:hover{
+    transform: scale(1.05);
+    transition-duration: 0.7s;
+}
+.academico h1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.academico h2{
+    margin-left: 20px;
+}
+
+.intereses {
+    border-radius: 10px;
+  -webkit-box-shadow: 0 0 5px 2px gray;
+  -moz-box-shadow: 0 0 5px 2px gray;
+  box-shadow: 0 0 5px 2px gray;
+}
+.intereses:hover{
+    transform: scale(1.05);
+    transition-duration: 0.7s;
+}
+
+.intereses h1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.habilidades {
+    border-radius: 10px;
+  -webkit-box-shadow: 0 0 5px 2px gray;
+  -moz-box-shadow: 0 0 5px 2px gray;
+  box-shadow: 0 0 5px 2px gray;
+}
+.habilidades:hover{
+    transform: scale(1.05);
+    transition-duration: 0.7s;
+}
+
+.habilidades h1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.l-br-s {
+    display: block;
+    color: transparent;
+}
+
+.section-ul  {
+    list-style: none;
+    padding-left: 0;
+}
+
+.section-ul li {
+    padding-left: 50px;
+    line-height : 25px;
+}
+ 
+.section-ul li:before {
+    content: '';
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    background-size: cover;
+    background-position: center;
+    left: 20px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.linea {
+    border-top: 1px solid black;
+    height: 2px;
+    max-width: 300px;
+    padding: 0;
+    margin: 20px auto 0 auto;
+}

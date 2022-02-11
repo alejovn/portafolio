@@ -1,0 +1,75 @@
+footer {
+    text-align: center;
+    padding: 3px;
+    background-color: DarkSalmon;
+    color: white;
+    text-shadow: 0.1em 0.1em 0.2em black
+}
+.footer h3{
+    text-shadow: 10px 5px 5px black;
+}
+
+.fondo-btn-f{
+    background-image:url('/public/img/facebook.png');
+    background-repeat:no-repeat;
+    background-position:center;
+    border-radius:10px;
+}
+.fondo-btn-i{
+    background-image:url('/public/img/instagram.png');
+    background-repeat:no-repeat;
+    background-position:center;
+    border-radius:10px;
+}
+.fondo-btn-l{
+    background-image:url('/public/img/linkedin.png');
+    background-repeat:no-repeat;
+    background-position:center;
+    border-radius:10px;
+}
+.fondo-btn-D{
+    background-image:url('/public/img/pdf_downlod.png');
+    background-repeat:no-repeat;
+    background-position:center;
+    border-radius:10px;
+}
+
+.click {
+    height:44px;
+    width:44px;
+    margin: 20px;
+    cursor: pointer;
+    position: relative;
+    display: inline-block;
+}
+.click .tooltip {
+    visibility: hidden;
+    width: 120px;
+    background-color:blue;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 0;
+    position: absolute;
+    z-index: 1;
+    bottom: 120%;
+    left: 50%;
+    margin-left: -60px;
+}
+.click .tooltip::after {
+    content: "";
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    margin-left: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: black transparent transparent transparent;
+  }
+.click:hover .tooltip {
+    visibility: visible;
+}
+.click:not(.tooltip):hover{
+    transform: scale(1.5);
+    transition-duration: 0.7s;
+}
