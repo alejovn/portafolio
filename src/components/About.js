@@ -70,7 +70,7 @@ const About = (props) => {
                             <h4>Lenguajes</h4>
                             <section className="container-lenguajes">
                                 <div id="carousel-lenguajes">
-                                    <figure><img src="img/java.png" /></figure>
+                                    <figure><img src="img/java_.png" /></figure>
                                     <figure><img src="img/javascript.png" /></figure>
                                     <figure><img src="img/vb.png" /></figure>
                                     <figure><img src="img/php.png" /></figure>
