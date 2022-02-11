@@ -111,7 +111,7 @@ function App() {
 
   return (
     <div className="App">
-      <MenuLado nav={nav} a={a} button={button}/>
+      <MenuLado estado={i} setCount={setCount} count={count} nav={nav} a={a} button={button}/>
       <About estado={titulo} container={container} codigo={codigo} pCodigo={pCodigo} 
       pDosCodigo={pDosCodigo} lCodigo={lCodigo} pUCodigo={pUCodigo} lenguajes={lenguajes} row={row}/>
       <Contact contact={contact} content={content}/>
