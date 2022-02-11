@@ -2,6 +2,7 @@
   "name": "portafolio",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://alejovn.github.io/portafolio/",
   "dependencies": {
     "@react-pdf/renderer": "^2.1.0",
     "@testing-library/jest-dom": "^5.16.1",
@@ -20,8 +21,10 @@
     "styled-components": "^5.3.3",
     "web-vitals": "^2.1.2"
   },
-  "homepage": "portafolioalejandrovalencian.com",
+  
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
