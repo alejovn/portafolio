@@ -62,7 +62,27 @@
     max-width: 350px;
     padding: 0;
     margin: 20px auto 0 auto;
-}  
+}
+
+
+input {
+    width: 600px;
+}
+textarea {
+    height: 10em;
+    width: 600px;
+}
+
+div[role='alert'] {
+  color: red;
+  margin-top: 1em;
+}
+.message-chars-left {
+    width: 600px;
+    margin: auto;
+    text-align: left;
+}
+
 @media screen and (max-width: 850px) {
     .centrado{
         margin:10px auto;

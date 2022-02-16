@@ -11,13 +11,12 @@ import About from './components/About';
 import Experiencia from './components/Experiencia';
 import Section from "./components/Section";
 import Contact from './components/Contact';
+import Contacto from './components/Contacto';
 import Footer from './components/Footer';
 import { Link, animateScroll as scroll } from "react-scroll";
 
 function App() {
   
-  const [i, setI] = useState("fa fa-bars")
-  const [titulo, setTitulo] = useState("titulo")
   const [count, setCount] = useState(0);
     const nav = React.createRef();
     const a = React.createRef();
@@ -114,12 +113,13 @@ function App() {
 
   return (
     <div className="App">
-      <MenuLado estado={i} setCount={setCount} count={count} nav={nav} a={a} button={button}/>
-      <About estado={titulo} container={container} codigo={codigo} pCodigo={pCodigo} 
+      <MenuLado setCount={setCount} count={count} nav={nav} a={a} button={button}/>
+      <About container={container} codigo={codigo} pCodigo={pCodigo} 
       pDosCodigo={pDosCodigo} lCodigo={lCodigo} pUCodigo={pUCodigo} lenguajes={lenguajes} row={row}/>
       <Contact contact={contact} content={content}/>
       <Section section={section} academico={academico} intereses={intereses} habilidades={habilidades}/>
       <Experiencia section4={section4} android={android} php={php} java={java}/>
+      <Contacto/>
       <Footer />
 
       <Link to="section1" smooth={true}><i><span className="ir-arriba fa fa-chevron-up"></span></i></Link>
