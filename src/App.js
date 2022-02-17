@@ -1,6 +1,7 @@
 import './App.css';
 import './css/menu_lado.css';
 import './css/body.css';
+import './css/sobremi.css';
 import './css/contact.css';
 import './css/section.css';
 import './css/footer.css';
@@ -10,8 +11,8 @@ import MenuLado from './components/MenuLado';
 import About from './components/About';
 import Experiencia from './components/Experiencia';
 import Section from "./components/Section";
+import Sobremi from './components/Sobremi';
 import Contact from './components/Contact';
-import Contacto from './components/Contacto';
 import Footer from './components/Footer';
 import { Link, animateScroll as scroll } from "react-scroll";
 
@@ -39,6 +40,8 @@ function App() {
     const intereses = React.createRef();
     const habilidades = React.createRef();
     const section = React.createRef();
+    const section5 = React.createRef();
+    const contacto_div = React.createRef();
   
     useEffect(() => {
       if(count%2===0){
@@ -50,6 +53,10 @@ function App() {
           contact.current.style.backgroundColor='#303030';
           section4.current.style.backgroundColor='#303030';
           section4.current.style.color='white';
+          section5.current.style.backgroundColor='#303030';
+          section5.current.style.color='white';
+
+          contacto_div.current.style.backgroundColor='#383838';
 
           android.current.style.backgroundColor='#383838';
           php.current.style.backgroundColor='#383838';
@@ -85,6 +92,11 @@ function App() {
           section4.current.style.backgroundColor='white';
           section4.current.style.color='black';
 
+          section5.current.style.backgroundColor='white';
+          section5.current.style.color='black';
+
+          contacto_div.current.style.backgroundColor='white';
+
           android.current.style.backgroundColor='white';
           php.current.style.backgroundColor='white';
           java.current.style.backgroundColor='white';
@@ -113,13 +125,13 @@ function App() {
 
   return (
     <div className="App">
-      <MenuLado setCount={setCount} count={count} nav={nav} a={a} button={button}/>
+      <MenuLado setCount={setCount} count={count} nav={nav} a={a} button={button} />
       <About container={container} codigo={codigo} pCodigo={pCodigo} 
-      pDosCodigo={pDosCodigo} lCodigo={lCodigo} pUCodigo={pUCodigo} lenguajes={lenguajes} row={row}/>
-      <Contact contact={contact} content={content}/>
-      <Section section={section} academico={academico} intereses={intereses} habilidades={habilidades}/>
-      <Experiencia section4={section4} android={android} php={php} java={java}/>
-      <Contacto/>
+      pDosCodigo={pDosCodigo} lCodigo={lCodigo} pUCodigo={pUCodigo} lenguajes={lenguajes} row={row} />
+      <Sobremi contact={contact} content={content}/>
+      <Section section={section} academico={academico} intereses={intereses} habilidades={habilidades} />
+      <Experiencia section4={section4} android={android} php={php} java={java} />
+      <Contact section5={section5} contacto_div={contacto_div} />
       <Footer />
 
       <Link to="section1" smooth={true}><i><span className="ir-arriba fa fa-chevron-up"></span></i></Link>

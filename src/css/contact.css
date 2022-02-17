@@ -1,121 +1,86 @@
-.centrado{
-    margin:10px auto;
-    display:block;
-    border: 1px solid #ddd;
-    border-radius: 4px;
-    padding: 5px;
-    width: 300px;
-    border-radius: 100%;
+#section5{
+    padding: 40px;
 }
-
-.content{
+.contacto-div{
+    width: 95%; 
+    margin: 0px auto;
     border-radius: 10px;
     -webkit-box-shadow: 0 0 5px 2px gray;
-  -moz-box-shadow: 0 0 5px 2px gray;
-  box-shadow: 0 0 5px 2px gray;
+    -moz-box-shadow: 0 0 5px 2px gray;
+    box-shadow: 0 0 5px 2px gray;
 }
-.content h1{
-    display: flex;
-    justify-content: center;
-    align-items: center;
+.contact{
+  padding-top: 30px;
+  padding-bottom: 20px;  
+  padding-left: 10px; 
 }
-.contac  {
-    list-style: none;
-    padding-left: 0;
+.contact h1{
+    padding-bottom: 30px;
+    text-align: center;
+}
+
+input{
+    background-color: #fbfbfb; 
+    width: 95%; 
+    height: 40px; 
+    border-radius: 5px;  
+    border-style: solid; 
+    border-width: 1px; 
+    border-color: #ab4493; 
+    margin-top: 10px;  
+    padding-left: 10px;
+    margin-bottom: 20px; 
 }
   
-
-.l-br {
-    display: block;
-    color: transparent;
+  
+textarea{
+    background-color: #fbfbfb; 
+    width: 95%; 
+    height: 150px; 
+    border-radius: 5px;  
+    border-style: solid; 
+    border-width: 1px; 
+    border-color: #ab4493; 
+    margin-top: 10px;  
+    padding-left: 10px;
+    margin-bottom: 20px; 
+    padding-top: 15px; 
 }
-.l-br-c {
-    display: block;
-    color: transparent;
-}
-
-.contact-h3{
-    font-size: 30px;
-    color: black;
-    margin-left: 25px;
-    margin-bottom: 0%;
-}
-
-.quien-soy {
-    text-align: justify;
-    font-size: 20px;
-    margin-left: 40px;
-    margin-right: 40px;
-}
-.quien-soy p{
-    padding: 30px;
-}
-.titulo-quien-soy{
-    font-size: 14px;
-    text-shadow: 0.1rem 0.1rem 0.1rem red;
+  
+  
+label{
+    display: block; 
+    float: center;  
 }
 
-
-.linea-c{
-    border-top: 1px solid black;
-    height: 2px;
-    max-width: 350px;
-    padding: 0;
-    margin: 20px auto 0 auto;
+.btn-enviar{
+    background-color: #6A98F0;
+    color: white;
+    position: relative;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    width: 95%;
+    text-align: center;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 10px;
+    border: 1px solid;
+    border-color: blue;
+  
 }
-
-
-input {
-    width: 600px;
-}
-textarea {
-    height: 10em;
-    width: 600px;
-}
+.btn-enviar:hover {
+    color: #fff;
+    background-color: gray;
+    border-color: black;
+    cursor: pointer;
+  }
 
 div[role='alert'] {
   color: red;
   margin-top: 1em;
 }
 .message-chars-left {
-    width: 600px;
+    width: 95%;
     margin: auto;
     text-align: left;
 }
-
-@media screen and (max-width: 850px) {
-    .centrado{
-        margin:10px auto;
-        display:block;
-        width: 300px;
-    }
-    .contac li{
-        font-size: 18px;
-    }
-    .contac li span{
-        font-size: 16px;
-    }
-
-    .l-br {
-        display: none;
-    }
-    .contac li:before {
-        left: 20px;
-    }
-    .contac li{
-        padding-left: 45px;
-        line-height : 24px;
-    }
-    .quien-soy {
-        margin-left: 15px;
-        margin-right: 15px;
-    }
-    .quien-soy p{
-        padding: 15px;
-        padding-top: 30px;
-        padding-bottom: 30px;
-    }
-      
-}
-  
-  
