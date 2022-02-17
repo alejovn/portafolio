@@ -8,13 +8,13 @@
     border-radius: 100%;
 }
 
-.content{
+.content_sobremi{
     border-radius: 10px;
     -webkit-box-shadow: 0 0 5px 2px gray;
   -moz-box-shadow: 0 0 5px 2px gray;
   box-shadow: 0 0 5px 2px gray;
 }
-.content h1{
+.content_sobremi h1{
     display: flex;
     justify-content: center;
     align-items: center;

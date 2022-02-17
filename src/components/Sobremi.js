@@ -1,7 +1,7 @@
 
 const Sobremi = (props) => {
     return (
-        <div ref={props.contact} className="contact">
+        <div ref={props.contact}>
             <div id="section2">
                 <span className="l-br">-</span>
                 <span className="l-br">-</span>
@@ -12,7 +12,7 @@ const Sobremi = (props) => {
                         <img className="centrado" src="img/foto.jpg" />
                     </div>
                     <div className="col-6">
-                        <div ref={props.content} className="content">
+                        <div ref={props.content} className="content_sobremi">
                             <span className="l-br-c">-</span>
                             <div className="titulo-quien-soy">
                                 <h1>Soy Alejandro Valencia</h1>
