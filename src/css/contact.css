@@ -87,16 +87,14 @@ div[role='alert'] {
 }
 
 
-.contact-area {
+.contact-area-con {
     width: 100%;
     position: relative;
 }
 .contact {
-    position: relative;
-    width: 460px;
-    padding: 40px 20px;
+    width: 100%;
+    padding: 40px 5px;
     overflow: hidden;
-    margin: 0 auto;
 }
 .contact main {
     float: left;
@@ -104,6 +102,7 @@ div[role='alert'] {
     position: relative;
 }
 .contact main section {
+    margin-top: 50px;
     float: left;
     width: 100%;
     border-radius: 10px;
@@ -118,33 +117,19 @@ div[role='alert'] {
     position: relative;
     text-align: center;
 }
-@media (min-width: 414px) {
-    .contact main section .content {
-        text-align: left;
-   }
-}
+
 .contact main section .content img {
     display: inline-block;
     width: 140px;
     border-radius: 50%;
 }
-@media (min-width: 414px) {
-    .contact main section .content img {
-        float: left;
-        width: 30%;
-        margin-right: 10%;
-   }
-}
+
 .contact main section .content aside {
     float: left;
     width: 100%;
     margin-top: 10px;
 }
-@media (min-width: 414px) {
-    .contact main section .content aside {
-        width: 60%;
-   }
-}
+
 .contact main section .content aside h1 {
     font-weight: 100;
     font-size: 22px;
@@ -336,11 +321,7 @@ div[role='alert'] {
     transform: translateY(-10px);
     position: relative;
 }
-@media (min-width: 414px) {
-    .contact nav a {
-        padding: 18px 30px;
-   }
-}
+
 .contact nav a .arrow {
     position: absolute;
     right: 15px;
@@ -399,5 +380,19 @@ div[role='alert'] {
     color: #b3b3b3;
     display: block;
     letter-spacing: 0.4px;
+}
+
+@media screen and (max-width: 850px) {
+    #section5{
+        padding: 0px;
+    }
+    .contact {
+        width: 100%;
+        margin: 0;
+    }
+    .contact main section {
+        margin-top: 20px;
+        margin-left: 0px;
+    }
 }
       

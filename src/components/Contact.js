@@ -34,7 +34,7 @@ const Contact = (props) => {
         <div ref={props.section5} id="section5">
             <div ref={props.contacto_div} className="contacto-div">
                 <div className="row">
-                    <div className="col-6 area1">
+                    <div className="col-6">
                         <div className="contact-area">
                             <h1>Contáctame</h1>
                             <form id='contact-form' onSubmit={handleSubmit(onSubmit)}>
@@ -98,8 +98,8 @@ const Contact = (props) => {
                             </form>
                         </div>
                     </div>
-                    <div className="col-6 area">
-                        <div className="contact-area">
+                    <div className="col-6">
+                        <div className="contact-area-con">
                             <div className="contact">
                                 <main>
                                     <section>
