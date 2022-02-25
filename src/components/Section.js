@@ -17,7 +17,7 @@ const Section = (props) => {
                 <h1>Java</h1>
               </div>
               <div className="img-habilidades">
-                <img className="" src="img/angular.png" />
+                <img className="" src="img/java.png" />
               </div>
             </div>
           </div>
@@ -28,7 +28,7 @@ const Section = (props) => {
                 <h1>JavaScript</h1>
               </div>
               <div className="img-habilidades">
-                <img className="" src="img/angular.png" />
+                <img className="" src="img/javascript.png" />
               </div>
             </div>
           </div>
@@ -39,7 +39,7 @@ const Section = (props) => {
                 <h1>PHP</h1>
               </div>
               <div className="img-habilidades">
-                <img className="" src="img/angular.png" />
+                <img className="" src="img/php.png" />
               </div>
             </div>
           </div>
@@ -50,7 +50,7 @@ const Section = (props) => {
                 <h1>VB.net</h1>
               </div>
               <div className="img-habilidades">
-                <img className="" src="img/angular.png" />
+                <img className="" src="img/vb.png" />
               </div>
             </div>
           </div>
@@ -74,7 +74,7 @@ const Section = (props) => {
                 <h1>React</h1>
               </div>
               <div className="img-habilidades">
-                <img className="" src="img/angular.png" />
+                <img className="" src="img/react.png" />
               </div> 
             </div>
           </div>
@@ -85,7 +85,7 @@ const Section = (props) => {
                 <h1>Bootstrap</h1>
               </div>
               <div className="img-habilidades">
-                <img className="" src="img/angular.png" />
+                <img className="" src="img/bootstrap.png" />
               </div>
             </div>
           </div>
@@ -93,10 +93,10 @@ const Section = (props) => {
             <div className={"habilidades "+props.classNameH}>
               <span className="l-br-s">-</span>
               <div>
-                <h1>ASP.net</h1>
+                <h1>Python</h1>
               </div>
               <div className="img-habilidades">
-                <img className="" src="img/angular.png" />
+                <img className="" src="img/python.png" />
               </div>
             </div>
           </div>
@@ -120,7 +120,7 @@ const Section = (props) => {
                 <h1>MySQL</h1>
               </div>
               <div className="img-habilidades">
-                <img className="" src="img/angular.png" />
+                <img className="" src="img/mysql.png" />
               </div>
             </div>
           </div>
@@ -142,7 +142,7 @@ const Section = (props) => {
                 <h1>SQLite</h1>
               </div>
               <div className="img-habilidades">
-                <img className="" src="img/angular.png" />
+                <img className="" src="img/sqlite.png" />
               </div>
             </div>
           </div>

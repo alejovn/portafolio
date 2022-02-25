@@ -1,5 +1,5 @@
 .habilidad{
-    background-color: aliceblue;
+    width: 90%;
     margin: 0 auto;
 }
 
@@ -37,8 +37,8 @@
 
 .img-habilidades{
     background-color:rgb(220, 233, 233);
-    width: 100px;
-    height: 100px;
+    width: 150px;
+    height: 150px;
     margin: 5px auto;
     border-radius: 50%;
     padding: auto;
