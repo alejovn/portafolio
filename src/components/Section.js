@@ -111,13 +111,15 @@ const Section = (props) => {
               </div>
               <div className="codigo-java">
                 <ul>
-                  <li>1 <span>public class holaMundo{' {'}</span></li>
-                  <li>2 <span className="tap1">public static void main(String[] args){' {'}</span></li>
-                  <li>3 <span className="tap2">System.out.println("Hola Mundo");</span></li>
-                  <li>4 <span className="tap1">{'}'}</span></li>
-                  <li>5 <span>{'}'}</span></li>
+                  <li>1 <span>Module Module1</span></li>
+                  <li>2 <span className="tap1">Sub Main()</span></li>
+                  <li>3 <span className="tap2">System.Console.WriteLine("Hola Mundo")</span></li>
+                  <li>4 <span className="tap2">System.Console.ReadLine()</span></li>
+                  <li>5 <span className="tap1">End Sub</span></li>
+                  <li>5 <span>End Module</span></li>
                 </ul>
-                <div className="btn-div">
+              </div>
+              <div className="btn-div">
                   <a href="#" class="ver-mas">
                     <div>
                       <span></span>
@@ -125,7 +127,6 @@ const Section = (props) => {
                     <p>Ver más</p>
                   </a>
                 </div>
-              </div>
             </div>
           </div>
         </div>

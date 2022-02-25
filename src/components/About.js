@@ -8,6 +8,7 @@ const About = (props) => {
                 <div className="row">
                     <div className="col-6">
                         <div className={"up " + props.estado}>
+                        <img className="centrado" src="img/foto.jpg" />
                             <h1 className="h1-titulo"><span>Hola,</span> Soy Alejandro.</h1>
                             <Slide />
                             <a href="CV_Alejandro_ValenciaNavarro.pdf" download="CV_Alejandro_ValenciaNavarro.pdf">

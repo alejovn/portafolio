@@ -1,7 +1,6 @@
 import "react-responsive-carousel/lib/styles/carousel.min.css";
 import Modal from 'react-modal';
 import React from 'react'
-import ReactPlayer from 'react-player'
 const ModalHabilidad = (props) => {
     let subtitle;
     const customStyles = {
