@@ -1,6 +1,11 @@
-import React from "react";
+import React, { useState } from "react";
+import ModalHabilidad from "../components/ModalHabilidad"
 
 const Section = (props) => {
+  const [modalIsOpen, setIsOpen] = useState(false);
+  const abrirModal = (ventana) => {
+    setIsOpen(true);
+  };
   return (
     <div ref={props.section} className="container">
       <div id="section3" className="habilidad">
@@ -27,13 +32,13 @@ const Section = (props) => {
                 </ul>
               </div>
               <div className="btn-div">
-                  <a href="#" class="ver-mas">
-                    <div>
-                      <span></span>
-                    </div>
-                    <p>Ver más</p>
-                  </a>
-                </div>
+                <a onClick={() => abrirModal()} class="ver-mas">
+                  <div>
+                    <span></span>
+                  </div>
+                  <p>Ver más</p>
+                </a>
+              </div>
             </div>
           </div>
           <div className="col-3">
@@ -49,23 +54,22 @@ const Section = (props) => {
                 <ul>
                   <li>1 <span>{"<html>"}</span></li>
                   <li>2 <span className="tap1">{"<body>"}</span></li>
-                  <li>3 <span className="tap2">{"<p>Antes del script...</p>"}</span></li>
+                  <li>3 <span className="tap2">{"<h1>Primer código JavaScript</h1>"}</span></li>
                   <li>4 <span className="tap2">{"<script>"}</span></li>
-                  <li>5 <span className="tap3">{"alert( '¡Hola, mundo!' );"}</span></li>
+                  <li>5 <span className="tap3">{"document.write('Hola Mundo');"}</span></li>
                   <li>6 <span className="tap2">{"</script>"}</span></li>
-                  <li>7 <span className="tap2">{"<p>...Después del script.</p>"}</span></li>
-                  <li>8 <span className="tap1">{"</body>"}</span></li>
-                  <li>9 <span>{"</html>"}</span></li>
+                  <li>7 <span className="tap1">{"</body>"}</span></li>
+                  <li>8 <span>{"</html>"}</span></li>
                 </ul>
               </div>
               <div className="btn-div">
-                  <a href="#" class="ver-mas">
-                    <div>
-                      <span></span>
-                    </div>
-                    <p>Ver más</p>
-                  </a>
-                </div>
+                <a onClick={() => abrirModal()} class="ver-mas">
+                  <div>
+                    <span></span>
+                  </div>
+                  <p>Ver más</p>
+                </a>
+              </div>
             </div>
           </div>
           <div className="col-3">
@@ -357,6 +361,7 @@ const Section = (props) => {
         <span className="l-br">-</span>
         <span className="l-br">-</span>
       </div>
+      <ModalHabilidad modalIsOpen={modalIsOpen} setIsOpen={setIsOpen} />
     </div>
   );
 }
