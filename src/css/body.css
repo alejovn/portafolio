@@ -107,12 +107,12 @@
   border-top-right-radius: 10px;
 }
 .contenedor h1 {
-  font-size: 40px;
+  font-size: 50px;
   color: black;
   margin-bottom: 0%;
 }
 .contenedor h2 {
-  font-size: 30px;
+  font-size: 40px;
   color: red;
   margin-bottom: 20px;
 }
@@ -353,11 +353,11 @@
     }
     
     .contenedor h1 {
-      font-size: 30px;
+      font-size: 35px;
       margin-bottom: 0%;
     }
     .contenedor h2 {
-      font-size: 25px;
+      font-size: 30px;
       color: brown;
       margin-top: 0%;
     }
