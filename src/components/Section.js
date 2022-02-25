@@ -12,6 +12,7 @@ const Section = (props) => {
         <div className="row _fondo-section">
           <div className="col-3">
             <div className={"habilidades " + props.classNameH}>
+              <span className="l-br-s">-</span>
               <h1>Java</h1>
               <div className="img-habilidades">
                 <img className="" src="img/java.png" />
@@ -24,6 +25,14 @@ const Section = (props) => {
                   <li>4 <span className="tap1">{'}'}</span></li>
                   <li>5 <span>{'}'}</span></li>
                 </ul>
+                <div className="btn-div">
+                  <a href="#" class="ver-mas">
+                    <div>
+                      <span></span>
+                    </div>
+                    <p>Ver más</p>
+                  </a>
+                </div>
               </div>
             </div>
           </div>
@@ -36,6 +45,23 @@ const Section = (props) => {
               <div className="img-habilidades">
                 <img className="" src="img/javascript.png" />
               </div>
+              <div className="codigo-java">
+                <ul>
+                  <li>1 <span>public class holaMundo{' {'}</span></li>
+                  <li>2 <span className="tap1">public static void main(String[] args){' {'}</span></li>
+                  <li>3 <span className="tap2">System.out.println("Hola Mundo");</span></li>
+                  <li>4 <span className="tap1">{'}'}</span></li>
+                  <li>5 <span>{'}'}</span></li>
+                </ul>
+                <div className="btn-div">
+                  <a href="#" class="ver-mas">
+                    <div>
+                      <span></span>
+                    </div>
+                    <p>Ver más</p>
+                  </a>
+                </div>
+              </div>
             </div>
           </div>
           <div className="col-3">
@@ -47,6 +73,23 @@ const Section = (props) => {
               <div className="img-habilidades">
                 <img className="" src="img/php.png" />
               </div>
+              <div className="codigo-java">
+                <ul>
+                  <li>1 <span>public class holaMundo{' {'}</span></li>
+                  <li>2 <span className="tap1">public static void main(String[] args){' {'}</span></li>
+                  <li>3 <span className="tap2">System.out.println("Hola Mundo");</span></li>
+                  <li>4 <span className="tap1">{'}'}</span></li>
+                  <li>5 <span>{'}'}</span></li>
+                </ul>
+                <div className="btn-div">
+                  <a href="#" class="ver-mas">
+                    <div>
+                      <span></span>
+                    </div>
+                    <p>Ver más</p>
+                  </a>
+                </div>
+              </div>
             </div>
           </div>
           <div className="col-3">
@@ -57,6 +100,23 @@ const Section = (props) => {
               </div>
               <div className="img-habilidades">
                 <img className="" src="img/vb.png" />
+              </div>
+              <div className="codigo-java">
+                <ul>
+                  <li>1 <span>public class holaMundo{' {'}</span></li>
+                  <li>2 <span className="tap1">public static void main(String[] args){' {'}</span></li>
+                  <li>3 <span className="tap2">System.out.println("Hola Mundo");</span></li>
+                  <li>4 <span className="tap1">{'}'}</span></li>
+                  <li>5 <span>{'}'}</span></li>
+                </ul>
+                <div className="btn-div">
+                  <a href="#" class="ver-mas">
+                    <div>
+                      <span></span>
+                    </div>
+                    <p>Ver más</p>
+                  </a>
+                </div>
               </div>
             </div>
           </div>
@@ -71,6 +131,23 @@ const Section = (props) => {
               <div className="img-habilidades">
                 <img className="" src="img/angular.png" />
               </div>
+              <div className="codigo-java">
+                <ul>
+                  <li>1 <span>public class holaMundo{' {'}</span></li>
+                  <li>2 <span className="tap1">public static void main(String[] args){' {'}</span></li>
+                  <li>3 <span className="tap2">System.out.println("Hola Mundo");</span></li>
+                  <li>4 <span className="tap1">{'}'}</span></li>
+                  <li>5 <span>{'}'}</span></li>
+                </ul>
+                <div className="btn-div">
+                  <a href="#" class="ver-mas">
+                    <div>
+                      <span></span>
+                    </div>
+                    <p>Ver más</p>
+                  </a>
+                </div>
+              </div>
             </div>
           </div>
           <div className="col-3">
@@ -81,6 +158,23 @@ const Section = (props) => {
               </div>
               <div className="img-habilidades">
                 <img className="" src="img/react.png" />
+              </div>
+              <div className="codigo-java">
+                <ul>
+                  <li>1 <span>public class holaMundo{' {'}</span></li>
+                  <li>2 <span className="tap1">public static void main(String[] args){' {'}</span></li>
+                  <li>3 <span className="tap2">System.out.println("Hola Mundo");</span></li>
+                  <li>4 <span className="tap1">{'}'}</span></li>
+                  <li>5 <span>{'}'}</span></li>
+                </ul>
+                <div className="btn-div">
+                  <a href="#" class="ver-mas">
+                    <div>
+                      <span></span>
+                    </div>
+                    <p>Ver más</p>
+                  </a>
+                </div>
               </div>
             </div>
           </div>
@@ -93,6 +187,23 @@ const Section = (props) => {
               <div className="img-habilidades">
                 <img className="" src="img/bootstrap.png" />
               </div>
+              <div className="codigo-java">
+                <ul>
+                  <li>1 <span>public class holaMundo{' {'}</span></li>
+                  <li>2 <span className="tap1">public static void main(String[] args){' {'}</span></li>
+                  <li>3 <span className="tap2">System.out.println("Hola Mundo");</span></li>
+                  <li>4 <span className="tap1">{'}'}</span></li>
+                  <li>5 <span>{'}'}</span></li>
+                </ul>
+                <div className="btn-div">
+                  <a href="#" class="ver-mas">
+                    <div>
+                      <span></span>
+                    </div>
+                    <p>Ver más</p>
+                  </a>
+                </div>
+              </div>
             </div>
           </div>
           <div className="col-3">
@@ -103,6 +214,23 @@ const Section = (props) => {
               </div>
               <div className="img-habilidades">
                 <img className="" src="img/python.png" />
+              </div>
+              <div className="codigo-java">
+                <ul>
+                  <li>1 <span>public class holaMundo{' {'}</span></li>
+                  <li>2 <span className="tap1">public static void main(String[] args){' {'}</span></li>
+                  <li>3 <span className="tap2">System.out.println("Hola Mundo");</span></li>
+                  <li>4 <span className="tap1">{'}'}</span></li>
+                  <li>5 <span>{'}'}</span></li>
+                </ul>
+                <div className="btn-div">
+                  <a href="#" class="ver-mas">
+                    <div>
+                      <span></span>
+                    </div>
+                    <p>Ver más</p>
+                  </a>
+                </div>
               </div>
             </div>
           </div>
@@ -117,6 +245,23 @@ const Section = (props) => {
               <div className="img-habilidades">
                 <img className="" src="img/angular.png" />
               </div>
+              <div className="codigo-java">
+                <ul>
+                  <li>1 <span>public class holaMundo{' {'}</span></li>
+                  <li>2 <span className="tap1">public static void main(String[] args){' {'}</span></li>
+                  <li>3 <span className="tap2">System.out.println("Hola Mundo");</span></li>
+                  <li>4 <span className="tap1">{'}'}</span></li>
+                  <li>5 <span>{'}'}</span></li>
+                </ul>
+                <div className="btn-div">
+                  <a href="#" class="ver-mas">
+                    <div>
+                      <span></span>
+                    </div>
+                    <p>Ver más</p>
+                  </a>
+                </div>
+              </div>
             </div>
           </div>
           <div className="col-3">
@@ -127,6 +272,23 @@ const Section = (props) => {
               </div>
               <div className="img-habilidades">
                 <img className="" src="img/mysql.png" />
+              </div>
+              <div className="codigo-java">
+                <ul>
+                  <li>1 <span>public class holaMundo{' {'}</span></li>
+                  <li>2 <span className="tap1">public static void main(String[] args){' {'}</span></li>
+                  <li>3 <span className="tap2">System.out.println("Hola Mundo");</span></li>
+                  <li>4 <span className="tap1">{'}'}</span></li>
+                  <li>5 <span>{'}'}</span></li>
+                </ul>
+                <div className="btn-div">
+                  <a href="#" class="ver-mas">
+                    <div>
+                      <span></span>
+                    </div>
+                    <p>Ver más</p>
+                  </a>
+                </div>
               </div>
             </div>
           </div>
@@ -139,6 +301,23 @@ const Section = (props) => {
               <div className="img-habilidades">
                 <img className="" src="img/angular.png" />
               </div>
+              <div className="codigo-java">
+                <ul>
+                  <li>1 <span>public class holaMundo{' {'}</span></li>
+                  <li>2 <span className="tap1">public static void main(String[] args){' {'}</span></li>
+                  <li>3 <span className="tap2">System.out.println("Hola Mundo");</span></li>
+                  <li>4 <span className="tap1">{'}'}</span></li>
+                  <li>5 <span>{'}'}</span></li>
+                </ul>
+                <div className="btn-div">
+                  <a href="#" class="ver-mas">
+                    <div>
+                      <span></span>
+                    </div>
+                    <p>Ver más</p>
+                  </a>
+                </div>
+              </div>
             </div>
           </div>
           <div className="col-3">
@@ -149,6 +328,23 @@ const Section = (props) => {
               </div>
               <div className="img-habilidades">
                 <img className="" src="img/sqlite.png" />
+              </div>
+              <div className="codigo-java">
+                <ul>
+                  <li>1 <span>public class holaMundo{' {'}</span></li>
+                  <li>2 <span className="tap1">public static void main(String[] args){' {'}</span></li>
+                  <li>3 <span className="tap2">System.out.println("Hola Mundo");</span></li>
+                  <li>4 <span className="tap1">{'}'}</span></li>
+                  <li>5 <span>{'}'}</span></li>
+                </ul>
+                <div className="btn-div">
+                  <a href="#" class="ver-mas">
+                    <div>
+                      <span></span>
+                    </div>
+                    <p>Ver más</p>
+                  </a>
+                </div>
               </div>
             </div>
           </div>
