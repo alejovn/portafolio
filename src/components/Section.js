@@ -25,7 +25,8 @@ const Section = (props) => {
                   <li>4 <span className="tap1">{'}'}</span></li>
                   <li>5 <span>{'}'}</span></li>
                 </ul>
-                <div className="btn-div">
+              </div>
+              <div className="btn-div">
                   <a href="#" class="ver-mas">
                     <div>
                       <span></span>
@@ -33,7 +34,6 @@ const Section = (props) => {
                     <p>Ver más</p>
                   </a>
                 </div>
-              </div>
             </div>
           </div>
           <div className="col-3">
@@ -47,13 +47,18 @@ const Section = (props) => {
               </div>
               <div className="codigo-java">
                 <ul>
-                  <li>1 <span>public class holaMundo{' {'}</span></li>
-                  <li>2 <span className="tap1">public static void main(String[] args){' {'}</span></li>
-                  <li>3 <span className="tap2">System.out.println("Hola Mundo");</span></li>
-                  <li>4 <span className="tap1">{'}'}</span></li>
-                  <li>5 <span>{'}'}</span></li>
+                  <li>1 <span>{"<html>"}</span></li>
+                  <li>2 <span className="tap1">{"<body>"}</span></li>
+                  <li>3 <span className="tap2">{"<p>Antes del script...</p>"}</span></li>
+                  <li>4 <span className="tap2">{"<script>"}</span></li>
+                  <li>5 <span className="tap3">{"alert( '¡Hola, mundo!' );"}</span></li>
+                  <li>6 <span className="tap2">{"</script>"}</span></li>
+                  <li>7 <span className="tap2">{"<p>...Después del script.</p>"}</span></li>
+                  <li>8 <span className="tap1">{"</body>"}</span></li>
+                  <li>9 <span>{"</html>"}</span></li>
                 </ul>
-                <div className="btn-div">
+              </div>
+              <div className="btn-div">
                   <a href="#" class="ver-mas">
                     <div>
                       <span></span>
@@ -61,7 +66,6 @@ const Section = (props) => {
                     <p>Ver más</p>
                   </a>
                 </div>
-              </div>
             </div>
           </div>
           <div className="col-3">
