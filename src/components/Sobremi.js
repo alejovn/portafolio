@@ -7,6 +7,7 @@ const Sobremi = (props) => {
                 <span className="l-br">-</span>
                 <span className="l-br">-</span>
                 <span className="l-br">-</span>
+                <h1>Sobre mi</h1>
                 <div className="row">
                     <div className="col-5 lado">
                         <img className="centrado" src="img/foto.jpg" />
