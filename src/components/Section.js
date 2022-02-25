@@ -11,18 +11,24 @@ const Section = (props) => {
         <h1>Habilidades</h1>
         <div className="row _fondo-section">
           <div className="col-3">
-            <div className={"habilidades "+props.classNameH}>
-              <span className="l-br-s">-</span>
-              <div>
-                <h1>Java</h1>
-              </div>
+            <div className={"habilidades " + props.classNameH}>
+              <h1>Java</h1>
               <div className="img-habilidades">
                 <img className="" src="img/java.png" />
+              </div>
+              <div className="codigo-java">
+                <ul>
+                  <li>1 <span>public class holaMundo{' {'}</span></li>
+                  <li>2 <span className="tap1">public static void main(String[] args){' {'}</span></li>
+                  <li>3 <span className="tap2">System.out.println("Hola Mundo");</span></li>
+                  <li>4 <span className="tap1">{'}'}</span></li>
+                  <li>5 <span>{'}'}</span></li>
+                </ul>
               </div>
             </div>
           </div>
           <div className="col-3">
-            <div className={"habilidades "+props.classNameH}>
+            <div className={"habilidades " + props.classNameH}>
               <span className="l-br-s">-</span>
               <div>
                 <h1>JavaScript</h1>
@@ -33,7 +39,7 @@ const Section = (props) => {
             </div>
           </div>
           <div className="col-3">
-            <div className={"habilidades "+props.classNameH}>
+            <div className={"habilidades " + props.classNameH}>
               <span className="l-br-s">-</span>
               <div>
                 <h1>PHP</h1>
@@ -44,7 +50,7 @@ const Section = (props) => {
             </div>
           </div>
           <div className="col-3">
-            <div className={"habilidades "+props.classNameH}>
+            <div className={"habilidades " + props.classNameH}>
               <span className="l-br-s">-</span>
               <div>
                 <h1>VB.net</h1>
@@ -57,7 +63,7 @@ const Section = (props) => {
         </div>
         <div className="row _fondo-section">
           <div className="col-3">
-            <div className={"habilidades "+props.classNameH}>
+            <div className={"habilidades " + props.classNameH}>
               <span className="l-br-s">-</span>
               <div>
                 <h1>Angular</h1>
@@ -68,18 +74,18 @@ const Section = (props) => {
             </div>
           </div>
           <div className="col-3">
-            <div className={"habilidades "+props.classNameH}>
+            <div className={"habilidades " + props.classNameH}>
               <span className="l-br-s">-</span>
               <div>
                 <h1>React</h1>
               </div>
               <div className="img-habilidades">
                 <img className="" src="img/react.png" />
-              </div> 
+              </div>
             </div>
           </div>
           <div className="col-3">
-            <div className={"habilidades "+props.classNameH}>
+            <div className={"habilidades " + props.classNameH}>
               <span className="l-br-s">-</span>
               <div>
                 <h1>Bootstrap</h1>
@@ -90,7 +96,7 @@ const Section = (props) => {
             </div>
           </div>
           <div className="col-3">
-            <div className={"habilidades "+props.classNameH}>
+            <div className={"habilidades " + props.classNameH}>
               <span className="l-br-s">-</span>
               <div>
                 <h1>Python</h1>
@@ -103,7 +109,7 @@ const Section = (props) => {
         </div>
         <div className="row _fondo-section">
           <div className="col-3">
-            <div className={"habilidades "+props.classNameH}>
+            <div className={"habilidades " + props.classNameH}>
               <span className="l-br-s">-</span>
               <div>
                 <h1>Android Studio</h1>
@@ -114,7 +120,7 @@ const Section = (props) => {
             </div>
           </div>
           <div className="col-3">
-            <div className={"habilidades "+props.classNameH}>
+            <div className={"habilidades " + props.classNameH}>
               <span className="l-br-s">-</span>
               <div>
                 <h1>MySQL</h1>
@@ -125,7 +131,7 @@ const Section = (props) => {
             </div>
           </div>
           <div className="col-3">
-            <div className={"habilidades "+props.classNameH}>
+            <div className={"habilidades " + props.classNameH}>
               <span className="l-br-s">-</span>
               <div>
                 <h1>SQL</h1>
@@ -136,7 +142,7 @@ const Section = (props) => {
             </div>
           </div>
           <div className="col-3">
-            <div className={"habilidades "+props.classNameH}>
+            <div className={"habilidades " + props.classNameH}>
               <span className="l-br-s">-</span>
               <div>
                 <h1>SQLite</h1>
