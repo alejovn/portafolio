@@ -15,7 +15,6 @@ const Section = (props) => {
               <div>
                 <h1>Java</h1>
               </div>
-              <div className="linea"></div>
               <div className="img-habilidades">
                 <img className="" src="img/angular.png" />
               </div>
@@ -27,7 +26,6 @@ const Section = (props) => {
               <div>
                 <h1>JavaScript</h1>
               </div>
-              <div className="linea"></div>
               <div className="img-habilidades">
                 <img className="" src="img/angular.png" />
               </div>
@@ -39,7 +37,6 @@ const Section = (props) => {
               <div>
                 <h1>PHP</h1>
               </div>
-              <div className="linea"></div>
               <div className="img-habilidades">
                 <img className="" src="img/angular.png" />
               </div>
@@ -51,7 +48,6 @@ const Section = (props) => {
               <div>
                 <h1>VB.net</h1>
               </div>
-              <div className="linea"></div>
               <div className="img-habilidades">
                 <img className="" src="img/angular.png" />
               </div>
@@ -65,7 +61,6 @@ const Section = (props) => {
               <div>
                 <h1>Angular</h1>
               </div>
-              <div className="linea"></div>
               <div className="img-habilidades">
                 <img className="" src="img/angular.png" />
               </div>
@@ -77,7 +72,6 @@ const Section = (props) => {
               <div>
                 <h1>React</h1>
               </div>
-              <div className="linea"></div>
               <div className="img-habilidades">
                 <img className="" src="img/angular.png" />
               </div> 
@@ -89,7 +83,6 @@ const Section = (props) => {
               <div>
                 <h1>Bootstrap</h1>
               </div>
-              <div className="linea"></div>
               <div className="img-habilidades">
                 <img className="" src="img/angular.png" />
               </div>
@@ -101,7 +94,6 @@ const Section = (props) => {
               <div>
                 <h1>ASP.net</h1>
               </div>
-              <div className="linea"></div>
               <div className="img-habilidades">
                 <img className="" src="img/angular.png" />
               </div>
@@ -115,8 +107,9 @@ const Section = (props) => {
               <div>
                 <h1>Android Studio</h1>
               </div>
-              <div className="linea"></div>
-              
+              <div className="img-habilidades">
+                <img className="" src="img/angular.png" />
+              </div>
             </div>
           </div>
           <div className="col-3">
@@ -125,7 +118,6 @@ const Section = (props) => {
               <div>
                 <h1>MySQL</h1>
               </div>
-              <div className="linea"></div>
               <div className="img-habilidades">
                 <img className="" src="img/angular.png" />
               </div>
@@ -137,7 +129,6 @@ const Section = (props) => {
               <div>
                 <h1>SQL</h1>
               </div>
-              <div className="linea"></div>
               <div className="img-habilidades">
                 <img className="" src="img/angular.png" />
               </div>
@@ -149,7 +140,6 @@ const Section = (props) => {
               <div>
                 <h1>SQLite</h1>
               </div>
-              <div className="linea"></div>
               <div className="img-habilidades">
                 <img className="" src="img/angular.png" />
               </div>
