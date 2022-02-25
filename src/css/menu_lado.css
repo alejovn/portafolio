@@ -36,7 +36,8 @@ header nav ul li span{
 }
 
 header nav ul li a:hover{
-    background:#037E8C;
+    background:#6A98F0;
+    cursor: pointer;
 }
 
 .switch {

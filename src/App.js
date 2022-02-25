@@ -19,6 +19,7 @@ import { Link, animateScroll as scroll } from "react-scroll";
 function App() {
   
   const [count, setCount] = useState(0);
+  const [classNameH, setClassNameH] = useState("habilidadDark");
     const nav = React.createRef();
     const a = React.createRef();
     const button = React.createRef();
@@ -36,15 +37,13 @@ function App() {
     const android = React.createRef();
     const php = React.createRef();
     const java = React.createRef();
-    const academico = React.createRef();
-    const intereses = React.createRef();
-    const habilidades = React.createRef();
     const section = React.createRef();
     const section5 = React.createRef();
     const contacto_div = React.createRef();
   
     useEffect(() => {
       if(count%2===0){
+        setClassNameH("habilidadDark");
           nav.current.style.backgroundColor='#383838';
           a.current.style.color='white';
           button.current.style.backgroundColor='#383838';
@@ -63,12 +62,6 @@ function App() {
           java.current.style.backgroundColor='#383838';
 
           section.current.style.backgroundColor='#303030';
-          academico.current.style.backgroundColor='#383838';
-          intereses.current.style.backgroundColor='#383838';
-          habilidades.current.style.backgroundColor='#383838';
-          academico.current.style.color='white';
-          intereses.current.style.color='white';
-          habilidades.current.style.color='white';
 
           codigo.current.style.backgroundColor='black';
           codigo.current.style.color='black';
@@ -83,6 +76,7 @@ function App() {
           
 
       }else{
+        setClassNameH("habilidadLight");
           nav.current.style.backgroundColor='white';
           a.current.style.color='black';
           button.current.style.backgroundColor='white';
@@ -102,12 +96,6 @@ function App() {
           java.current.style.backgroundColor='white';
 
           section.current.style.backgroundColor='white';
-          academico.current.style.backgroundColor='white';
-          intereses.current.style.backgroundColor='white';
-          habilidades.current.style.backgroundColor='white';
-          academico.current.style.color='black';
-          intereses.current.style.color='black';
-          habilidades.current.style.color='black';
 
           codigo.current.style.backgroundColor='white';
           codigo.current.style.color='white';
@@ -129,7 +117,7 @@ function App() {
       <About container={container} codigo={codigo} pCodigo={pCodigo} 
       pDosCodigo={pDosCodigo} lCodigo={lCodigo} pUCodigo={pUCodigo} lenguajes={lenguajes} row={row} />
       <Sobremi contact={contact} content={content}/>
-      <Section section={section} academico={academico} intereses={intereses} habilidades={habilidades} />
+      <Section classNameH={classNameH} section={section} />
       <Experiencia section4={section4} android={android} php={php} java={java} />
       <Contact section5={section5} contacto_div={contacto_div} />
       <Footer />

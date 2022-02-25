@@ -1,44 +1,29 @@
-.academico{
-    border-radius: 10px;
-  -webkit-box-shadow: 0 0 5px 2px gray;
-  -moz-box-shadow: 0 0 5px 2px gray;
-  box-shadow: 0 0 5px 2px gray;
-}
-.academico:hover{
-    transform: scale(1.05);
-    transition-duration: 0.7s;
-}
-.academico h1{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-.academico h2{
-    margin-left: 20px;
+.habilidad{
+    background-color: aliceblue;
+    margin: 0 auto;
 }
 
-.intereses {
-    border-radius: 10px;
-  -webkit-box-shadow: 0 0 5px 2px gray;
-  -moz-box-shadow: 0 0 5px 2px gray;
-  box-shadow: 0 0 5px 2px gray;
+.habilidadDark{
+    background-color:#383838;
+    color: white;
 }
-.intereses:hover{
-    transform: scale(1.05);
-    transition-duration: 0.7s;
-}
+.habilidadLight{
+    background-color:rgb(220, 233, 233);
+    color: black;
 
-.intereses h1{
-    display: flex;
-    justify-content: center;
-    align-items: center;
 }
 
 .habilidades {
+    width: 300px;
+    height: 300px;
     border-radius: 10px;
-  -webkit-box-shadow: 0 0 5px 2px gray;
-  -moz-box-shadow: 0 0 5px 2px gray;
-  box-shadow: 0 0 5px 2px gray;
+    -webkit-box-shadow: 0 0 5px 2px gray;
+    -moz-box-shadow: 0 0 5px 2px gray;
+    box-shadow: 0 0 5px 2px gray;
+}
+.habilidades h1 {
+    font-size: 22px;
+    text-shadow: 0.1rem 0.1rem 0.1rem rgb(104, 175, 207);
 }
 .habilidades:hover{
     transform: scale(1.05);
@@ -49,6 +34,19 @@
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.img-habilidades{
+    background-color:rgb(220, 233, 233);
+    width: 100px;
+    height: 100px;
+    margin: 5px auto;
+    border-radius: 50%;
+    padding: auto;
+}
+.img-habilidades img{
+    width: 100%;
+    height: auto;
 }
 
 .l-br-s {
@@ -79,9 +77,9 @@
 }
 
 .linea {
-    border-top: 1px solid black;
+    border-top: 1px solid;
     height: 2px;
-    max-width: 300px;
+    max-width: 250px;
     padding: 0;
     margin: 20px auto 0 auto;
 }

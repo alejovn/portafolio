@@ -108,17 +108,17 @@ const Contact = (props) => {
 
                                             <aside>
                                                 <h1>Alejandro Valencia</h1>
-                                                <p>Hi, I'm Riccardo Cavallo and I'm a Graphic and Visual Designer.</p>
+                                                <p>Hola, soy Alejandro Valencia y soy Programador Full Stack.</p>
                                             </aside>
 
                                             <button className={isActive ? 'active' : null} onClick={toggleClass}>
-                                                <span>Contact Me</span>
+                                                <span>Contáctame</span>
 
                                                 <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 48 48"> <g className="nc-icon-wrapper" fill="#444444"> <path d="M14.83 30.83L24 21.66l9.17 9.17L36 28 24 16 12 28z"></path> </g> </svg>
                                             </button>
                                         </div>
 
-                                        <div className={isActive ? 'active' : null} id="title"><p>Contact Me</p></div>
+                                        <div className={isActive ? 'active' : null} id="title"><p>Contáctame</p></div>
                                     </section>
 
 
@@ -132,7 +132,7 @@ const Contact = (props) => {
 
                                         <div className="content">
                                             <h1>Email</h1>
-                                            <span>Riccavallo@gmail.com</span>
+                                            <span>alejandrovalencia2011@gmial.com</span>
                                         </div>
 
                                         <svg className="arrow" xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 48 48"> <g className="nc-icon-wrapper" fill="#444444"> <path d="M17.17 32.92l9.17-9.17-9.17-9.17L20 11.75l12 12-12 12z"></path> </g> </svg>
@@ -145,7 +145,7 @@ const Contact = (props) => {
 
                                         <div className="content">
                                             <h1>Facebook</h1>
-                                            <span>Riccardo Cavallo</span>
+                                            <span>Alejo Valencia</span>
                                         </div>
 
                                         <svg className="arrow" xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 48 48"> <g className="nc-icon-wrapper" fill="#444444"> <path d="M17.17 32.92l9.17-9.17-9.17-9.17L20 11.75l12 12-12 12z"></path> </g> </svg>
@@ -158,7 +158,7 @@ const Contact = (props) => {
 
                                         <div className="content">
                                             <h1>Twitter</h1>
-                                            <span>@RichoxDesign</span>
+                                            <span>@Alejand93392546</span>
                                         </div>
 
                                         <svg className="arrow" xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 48 48"> <g className="nc-icon-wrapper" fill="#444444"> <path d="M17.17 32.92l9.17-9.17-9.17-9.17L20 11.75l12 12-12 12z"></path> </g> </svg>

@@ -30,7 +30,7 @@ const MenuLado = (props) => {
                         </label>
                         <li><Link to="section1" className='hover-underline-animation' smooth={true} onClick={() => openMenu()}><i className='fa fa-home'></i> Home</Link></li>
                         <li><Link to="section2" className='hover-underline-animation' smooth={true} onClick={() => openMenu()}><i className='fa fa-user-secret'></i> Sobre mi</Link></li>
-                        <li><Link to="section3" className='hover-underline-animation' smooth={true} onClick={() => openMenu()}><i className='fa fa-certificate'></i> Mas</Link></li>
+                        <li><Link to="section3" className='hover-underline-animation' smooth={true} onClick={() => openMenu()}><i className='fa fa-certificate'></i> Habilidades</Link></li>
                         <li><Link to="section4" className='hover-underline-animation' smooth={true} onClick={() => openMenu()}><i className='fa fa-briefcase'></i> Experiencia</Link></li>
                         <li><Link to="section5" className='hover-underline-animation' smooth={true} onClick={() => openMenu()}><i className='fa fa-address-card'></i> Contacto</Link></li>
                     </ul>
