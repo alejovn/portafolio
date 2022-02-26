@@ -83,20 +83,24 @@ const Section = (props) => {
               </div>
               <div className="codigo-java">
                 <ul>
-                  <li>1 <span>public class holaMundo{' {'}</span></li>
-                  <li>2 <span className="tap1">public static void main(String[] args){' {'}</span></li>
-                  <li>3 <span className="tap2">System.out.println("Hola Mundo");</span></li>
-                  <li>4 <span className="tap1">{'}'}</span></li>
-                  <li>5 <span>{'}'}</span></li>
+                  <li>1 <span>{"<html>"}</span></li>
+                  <li>2 <span className="tap1">{"<head>"}</span></li>
+                  <li>3 <span className="tap2">{"<title>Prueba de PHP</title>"}</span></li>
+                  <li>4 <span className="tap2">{"</head>"}</span></li>
+                  <li>5 <span className="tap3">{"<body>"}</span></li>
+                  <li>6 <span className="tap2">{"<?php echo '<p>Hola Mundo</p>';?>"}</span></li>
+                  <li>7 <span className="tap1">{"</body>"}</span></li>
+                  <li>8 <span>{"</html>"}</span></li>
                 </ul>
-                <div className="btn-div">
-                  <a href="#" class="ver-mas">
-                    <div>
-                      <span></span>
-                    </div>
-                    <p>Ver más</p>
-                  </a>
-                </div>
+
+              </div>
+              <div className="btn-div">
+                <a href="#" class="ver-mas">
+                  <div>
+                    <span></span>
+                  </div>
+                  <p>Ver más</p>
+                </a>
               </div>
             </div>
           </div>
@@ -116,17 +120,17 @@ const Section = (props) => {
                   <li>3 <span className="tap2">System.Console.WriteLine("Hola Mundo")</span></li>
                   <li>4 <span className="tap2">System.Console.ReadLine()</span></li>
                   <li>5 <span className="tap1">End Sub</span></li>
-                  <li>5 <span>End Module</span></li>
+                  <li>6 <span>End Module</span></li>
                 </ul>
               </div>
               <div className="btn-div">
-                  <a href="#" class="ver-mas">
-                    <div>
-                      <span></span>
-                    </div>
-                    <p>Ver más</p>
-                  </a>
-                </div>
+                <a href="#" class="ver-mas">
+                  <div>
+                    <span></span>
+                  </div>
+                  <p>Ver más</p>
+                </a>
+              </div>
             </div>
           </div>
         </div>
@@ -148,7 +152,8 @@ const Section = (props) => {
                   <li>4 <span className="tap1">{'}'}</span></li>
                   <li>5 <span>{'}'}</span></li>
                 </ul>
-                <div className="btn-div">
+              </div>
+              <div className="btn-div">
                   <a href="#" class="ver-mas">
                     <div>
                       <span></span>
@@ -156,7 +161,6 @@ const Section = (props) => {
                     <p>Ver más</p>
                   </a>
                 </div>
-              </div>
             </div>
           </div>
           <div className="col-3">
@@ -170,13 +174,17 @@ const Section = (props) => {
               </div>
               <div className="codigo-java">
                 <ul>
-                  <li>1 <span>public class holaMundo{' {'}</span></li>
-                  <li>2 <span className="tap1">public static void main(String[] args){' {'}</span></li>
-                  <li>3 <span className="tap2">System.out.println("Hola Mundo");</span></li>
-                  <li>4 <span className="tap1">{'}'}</span></li>
-                  <li>5 <span>{'}'}</span></li>
+                  <li>1 <span>{"function App() {"}</span></li>
+                  <li>2 <span className="tap1">{"return ("}</span></li>
+                  <li>3 <span className="tap2">{"<div>"}</span></li>
+                  <li>4 <span className="tap2">{"<p>Hola Mundo</p>"}</span></li>
+                  <li>5 <span className="tap3">{"</div>"}</span></li>
+                  <li>6 <span className="tap2">{");"}</span></li>
+                  <li>7 <span>{"}"}</span></li>
+                  <li>8 <span>{"export default App;"}</span></li>
                 </ul>
-                <div className="btn-div">
+              </div>
+              <div className="btn-div">
                   <a href="#" class="ver-mas">
                     <div>
                       <span></span>
@@ -184,7 +192,6 @@ const Section = (props) => {
                     <p>Ver más</p>
                   </a>
                 </div>
-              </div>
             </div>
           </div>
           <div className="col-3">
@@ -198,13 +205,19 @@ const Section = (props) => {
               </div>
               <div className="codigo-java">
                 <ul>
-                  <li>1 <span>public class holaMundo{' {'}</span></li>
-                  <li>2 <span className="tap1">public static void main(String[] args){' {'}</span></li>
-                  <li>3 <span className="tap2">System.out.println("Hola Mundo");</span></li>
-                  <li>4 <span className="tap1">{'}'}</span></li>
-                  <li>5 <span>{'}'}</span></li>
+                <li>1 <span>{"<html>"}</span></li>
+                  <li>2 <span className="tap1">{"<head>"}</span></li>
+                  <li>3 <span className="tap1">{"<link rel='stylesheet' href='bootstrap.css'>"}</span></li>
+                  <li>4 <span className="tap1">{"</head>"}</span></li>
+                  <li>5 <span className="tap1">{"<body>"}</span></li>
+                  <li>6 <span className="tap2">{"<button class='btn btn-dark'>"}</span></li>
+                  <li>7 <span className="tap3">{"Dark"}</span></li>
+                  <li>8 <span className="tap2">{"</button>"}</span></li>
+                  <li>9 <span className="tap1">{"</body>"}</span></li>
+                  <li>10 <span>{"</html>"}</span></li>
                 </ul>
-                <div className="btn-div">
+              </div>
+              <div className="btn-div">
                   <a href="#" class="ver-mas">
                     <div>
                       <span></span>
@@ -212,7 +225,6 @@ const Section = (props) => {
                     <p>Ver más</p>
                   </a>
                 </div>
-              </div>
             </div>
           </div>
           <div className="col-3">
@@ -232,7 +244,8 @@ const Section = (props) => {
                   <li>4 <span className="tap1">{'}'}</span></li>
                   <li>5 <span>{'}'}</span></li>
                 </ul>
-                <div className="btn-div">
+              </div>
+              <div className="btn-div">
                   <a href="#" class="ver-mas">
                     <div>
                       <span></span>
@@ -240,7 +253,6 @@ const Section = (props) => {
                     <p>Ver más</p>
                   </a>
                 </div>
-              </div>
             </div>
           </div>
         </div>
@@ -262,7 +274,8 @@ const Section = (props) => {
                   <li>4 <span className="tap1">{'}'}</span></li>
                   <li>5 <span>{'}'}</span></li>
                 </ul>
-                <div className="btn-div">
+              </div>
+              <div className="btn-div">
                   <a href="#" class="ver-mas">
                     <div>
                       <span></span>
@@ -270,7 +283,6 @@ const Section = (props) => {
                     <p>Ver más</p>
                   </a>
                 </div>
-              </div>
             </div>
           </div>
           <div className="col-3">
@@ -290,7 +302,8 @@ const Section = (props) => {
                   <li>4 <span className="tap1">{'}'}</span></li>
                   <li>5 <span>{'}'}</span></li>
                 </ul>
-                <div className="btn-div">
+              </div>
+              <div className="btn-div">
                   <a href="#" class="ver-mas">
                     <div>
                       <span></span>
@@ -298,7 +311,6 @@ const Section = (props) => {
                     <p>Ver más</p>
                   </a>
                 </div>
-              </div>
             </div>
           </div>
           <div className="col-3">
@@ -318,7 +330,8 @@ const Section = (props) => {
                   <li>4 <span className="tap1">{'}'}</span></li>
                   <li>5 <span>{'}'}</span></li>
                 </ul>
-                <div className="btn-div">
+              </div>
+              <div className="btn-div">
                   <a href="#" class="ver-mas">
                     <div>
                       <span></span>
@@ -326,7 +339,6 @@ const Section = (props) => {
                     <p>Ver más</p>
                   </a>
                 </div>
-              </div>
             </div>
           </div>
           <div className="col-3">
@@ -346,14 +358,14 @@ const Section = (props) => {
                   <li>4 <span className="tap1">{'}'}</span></li>
                   <li>5 <span>{'}'}</span></li>
                 </ul>
-                <div className="btn-div">
+              </div>
+              <div className="btn-div">
                   <a href="#" class="ver-mas">
                     <div>
                       <span></span>
                     </div>
                     <p>Ver más</p>
                   </a>
-                </div>
               </div>
             </div>
           </div>
