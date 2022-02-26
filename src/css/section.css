@@ -208,5 +208,11 @@
     left:25%;
     width: 20px;
  }
+
+ @media screen and (max-width: 768px){
+    .codigo-java{
+        width: 80%;
+    }
+ }
   
  

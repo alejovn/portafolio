@@ -17,15 +17,10 @@ const Section = (props) => {
         <div className="row _fondo-section">
           <div className="col-4">
             <div className={"habilidades " + props.classNameH}>
-              <div className="row">
-                <div className="col-6">
-                  <div className="img-habilidades">
-                    <img className="" src="img/java.png" />
-                  </div>
-                </div>
-                <div className="col-6">
-                  <h1>Java</h1>
-                </div>
+              <span className="l-br-s">-</span>
+              <h1>Java</h1>
+              <div className="img-habilidades">
+                <img className="" src="img/java.png" />
               </div>
               <div className="codigo-java">
                 <ul>
@@ -109,7 +104,7 @@ const Section = (props) => {
           </div>
         </div>
         <div className="row _fondo-section">
-          <div className="col-4">
+        <div className="col-4">
             <div className={"habilidades " + props.classNameH}>
               <span className="l-br-s">-</span>
               <div>
@@ -201,7 +196,7 @@ const Section = (props) => {
           </div>
         </div>
         <div className="row _fondo-section">
-
+          
           <div className="col-4">
             <div className={"habilidades " + props.classNameH}>
               <span className="l-br-s">-</span>
@@ -233,7 +228,7 @@ const Section = (props) => {
               </div>
             </div>
           </div>
-
+          
           <div className="col-4">
             <div className={"habilidades " + props.classNameH}>
               <span className="l-br-s">-</span>
