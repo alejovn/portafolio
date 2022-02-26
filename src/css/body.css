@@ -23,7 +23,7 @@
   
   [class*="col-"] {
     float: left;
-    padding: 15px;
+    padding: 10px;
   }
   
   html {
@@ -95,7 +95,7 @@
   width: 380px;
   height: 180px;
   background-color: #6A98F0;
-  margin-left: -150px;
+  margin-left: -110px;
   border-radius: 10px;
 }
 .pU-codigo{
@@ -107,12 +107,12 @@
   border-top-right-radius: 10px;
 }
 .contenedor h1 {
-  font-size: 50px;
+  font-size: 45px;
   color: black;
   margin-bottom: 0%;
 }
 .contenedor h2 {
-  font-size: 40px;
+  font-size: 35px;
   color: red;
   margin-bottom: 20px;
 }
@@ -124,8 +124,8 @@
   color: white;
   padding-top: 15px;
   padding-bottom: 15px;
-  padding-left: 120px;
-  padding-right: 120px;
+  padding-left: 115px;
+  padding-right: 115px;
   text-align: center;
   text-decoration: none;
   display: inline-block;
@@ -357,7 +357,7 @@
       margin-bottom: 0%;
     }
     .contenedor h2 {
-      font-size: 30px;
+      font-size: 25px;
       color: brown;
       margin-top: 0%;
     }
