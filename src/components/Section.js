@@ -104,7 +104,7 @@ const Section = (props) => {
           </div>
         </div>
         <div className="row _fondo-section">
-        <div className="col-4">
+          <div className="col-4">
             <div className={"habilidades " + props.classNameH}>
               <span className="l-br-s">-</span>
               <div>
@@ -196,7 +196,7 @@ const Section = (props) => {
           </div>
         </div>
         <div className="row _fondo-section">
-          
+
           <div className="col-4">
             <div className={"habilidades " + props.classNameH}>
               <span className="l-br-s">-</span>
@@ -228,7 +228,7 @@ const Section = (props) => {
               </div>
             </div>
           </div>
-          
+
           <div className="col-4">
             <div className={"habilidades " + props.classNameH}>
               <span className="l-br-s">-</span>
@@ -255,32 +255,19 @@ const Section = (props) => {
           </div>
           <div className="col-4">
             <div className={"habilidades " + props.classNameH}>
-              <span className="l-br-s">-</span>
+            <span className="l-br-s">-</span>
               <div>
-                <h1>MySQL</h1>
+                <h1>Otras Habilidades</h1>
               </div>
-              <div className="img-habilidades">
-                <img className="" src="img/mysql.png" />
-              </div>
-              <div className="codigo-java">
-                <ul>
-                  <li>1 <span>CREATE DATABASE Saludo;</span></li>
-                  <li>2 <span className="tap1">USE Saludo</span></li>
-                  <li>3 <span className="tap2">CREATE TABLE 'saludo' (</span></li>
-                  <li>4 <span className="tap1">{"'id' INT NOT NULL AUTO_INCREMENT, "}</span></li>
-                  <li>5 <span>{"'saludo' VARCHAR(50) NOT NULL, "}</span></li>
-                  <li>6 <span className="tap1">{"PRIMARY KEY ('id')"}</span></li>
-                  <li>7 <span>{")ENGINE = InnoDB;"}</span></li>
-                </ul>
-              </div>
-              <div className="btn-div">
-                <a href="#" class="ver-mas">
-                  <div>
-                    <span></span>
-                  </div>
-                  <p>Ver más</p>
-                </a>
-              </div>
+              <section className="container-lenguajes">
+                <div id="carousel-lenguajes">
+                  <figure><img src="img/java_.png" /></figure>
+                  <figure><img src="img/javascript.png" /></figure>
+                  <figure><img src="img/vb.png" /></figure>
+                  <figure><img src="img/php.png" /></figure>
+                  <figure><img src="img/python.png" /></figure>
+                </div>
+              </section>
             </div>
           </div>
         </div>

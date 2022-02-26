@@ -38,50 +38,6 @@ const About = (props) => {
                         </div>
                     </div>
                 </div>
-                <div ref={props.row} className="row">
-                    <div className="col-4">
-                        <div className="lenguajes h4">
-                            <h4>Frameworks y Librerias</h4>
-                            <section className="container-lenguajes">
-                                <div id="carousel-lenguajes">
-                                    <figure><img src="img/angular.png" /></figure>
-                                    <figure><img src="img/bootstrap.png" /></figure>
-                                    <figure><img src="img/laravel.png" /></figure>
-                                    <figure><img src="img/react.png" /></figure>
-                                    <figure><img src="img/jquery.png" /></figure>
-                                </div>
-                            </section>
-                        </div>
-                    </div>
-                    <div className="col-4">
-                        <div ref={props.lenguajes} className="lenguajes _centro">
-                            <div className="h4">
-                                <h4>Amo programar</h4>
-                            </div>
-                            <div className="linea-c"></div>
-                            <div className="cita">
-                                <p>"La mayoría de los buenos programadores lo son no porque 
-                                    esperen que se les pague o por la adulación del público, 
-                                    sino porque les divierte programar" <span>Linus Torvalds.</span>
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-                    <div className="col-4">
-                        <div className="lenguajes h4">
-                            <h4>Lenguajes</h4>
-                            <section className="container-lenguajes">
-                                <div id="carousel-lenguajes">
-                                    <figure><img src="img/java_.png" /></figure>
-                                    <figure><img src="img/javascript.png" /></figure>
-                                    <figure><img src="img/vb.png" /></figure>
-                                    <figure><img src="img/php.png" /></figure>
-                                    <figure><img src="img/python.png" /></figure>
-                                </div>
-                            </section>
-                        </div>
-                    </div>
-                </div>
                 <ul className="bg-bubbles">
                     <li></li>
                     <li></li>
