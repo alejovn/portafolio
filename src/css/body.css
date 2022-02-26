@@ -55,7 +55,7 @@
 }
 .up{
   margin-left: 80px;
-  margin-top: 40px;
+  margin-top: 35px;
   padding: 30px;
 }
 .img{
@@ -124,8 +124,8 @@
   color: white;
   padding-top: 15px;
   padding-bottom: 15px;
-  padding-left: 100px;
-  padding-right: 100px;
+  padding-left: 120px;
+  padding-right: 120px;
   text-align: center;
   text-decoration: none;
   display: inline-block;
@@ -365,7 +365,7 @@
       color: brown;
     }
     .up{
-      margin-left:10px;
+      margin-left:5px;
       margin-top: 45px;
     }
     .codigo{
