@@ -51,6 +51,11 @@
     border-radius: 100%;
 }
 
+.img-habilidades img{
+    width: 95%;
+    height: 95%;
+}
+
 .otra-habilidad{
     text-align: center;
 }
