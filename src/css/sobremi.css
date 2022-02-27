@@ -55,6 +55,11 @@
     text-shadow: 0.1rem 0.1rem 0.1rem red;
 }
 
+.sobre-mi{
+    width: 90%;
+    margin: 0 auto;
+}
+
 
 .linea-c{
     border-top: 1px solid black;

@@ -2,12 +2,14 @@
 const Sobremi = (props) => {
     return (
         <div ref={props.contact}>
-            <div id="section2">
+            <div id="section2" className="sobre-mi">
                 <span className="l-br">-</span>
                 <span className="l-br">-</span>
                 <span className="l-br">-</span>
                 <span className="l-br">-</span>
-                <h1>Sobre mi</h1>
+                <h1 className="h1-title">Sobre mi</h1>
+                <div className="linea-habilidad"></div>
+                <span className="l-br">-</span>
                 <div className="row">
                     <div className="col-5 lado">
                         <img className="centrado" src="img/foto.jpg" />
@@ -30,11 +32,6 @@ const Sobremi = (props) => {
                     </div>
                 </div>
             </div>
-            <span className="l-br">-</span>
-            <span className="l-br">-</span>
-            <span className="l-br">-</span>
-            <span className="l-br">-</span>
-            <span className="l-br">-</span>
         </div>
     )
 }

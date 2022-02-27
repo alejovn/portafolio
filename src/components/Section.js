@@ -13,7 +13,9 @@ const Section = (props) => {
         <span className="l-br">-</span>
         <span className="l-br">-</span>
         <span className="l-br">-</span>
-        <h1>Habilidades</h1>
+        <h1 className="h1-title">Habilidades</h1>
+        <div className="linea-habilidad"></div>
+        <span className="l-br">-</span>
         <div className="row _fondo-section">
           <div className="col-4">
             <div className={"habilidades " + props.classNameH}>
