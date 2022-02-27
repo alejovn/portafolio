@@ -41,12 +41,14 @@
 }
 
 .img-habilidades{
-    background-color: darkgray;
-    border-radius: 50%;
+    margin-left: 20px;
+    display:block;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 5px;
     width: 100px;
     height: 100px;
-    margin-left: 20px;
-    padding: auto;
+    border-radius: 100%;
 }
 .img-habilidades img{
     width: 100%;
@@ -116,7 +118,7 @@
 .btn-div{
     width: 50%;
     margin-left: 35%;
-    margin-top: -70px
+    margin-top: -75px
 }
 .ver-mas {
     margin: auto;
