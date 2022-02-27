@@ -1,7 +1,7 @@
 
 const Sobremi = (props) => {
     return (
-        <div ref={props.contact}>
+        <div className={props.contact}>
             <div id="section2" className="sobre-mi">
                 <span className="l-br">-</span>
                 <span className="l-br">-</span>

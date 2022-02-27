@@ -4,6 +4,14 @@
   body{
     background-color: rgb(196, 147, 147);
   }
+
+  .containerDark{
+    background: linear-gradient(to bottom, rgb(5, 5, 5), rgb(155, 148, 148));
+  }
+  .containerLight{
+    background: linear-gradient(to bottom, rgb(208, 215, 235), rgb(255, 255, 255));
+  }
+  
   .fondo-color{
     background-color: burlywood;
   }

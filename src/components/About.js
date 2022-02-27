@@ -3,7 +3,7 @@ import Cmd from "./Cmd";
 
 const About = (props) => {
     return (
-        <div ref={props.container} className="container">
+        <div className={"container "+props.container}>
             <div className="contenedor" id="section1">
                 <div className="row">
                     <div className="col-6">
@@ -39,6 +39,8 @@ const About = (props) => {
                     </div>
                 </div>
             </div>
+            <span className="l-br">-</span>
+            <span className="l-br">-</span>
         </div>
     );
 }

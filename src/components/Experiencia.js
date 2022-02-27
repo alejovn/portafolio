@@ -34,7 +34,7 @@ const Experiencia = (props) => {
         setIsOpen(false);
     }
     return (
-        <div ref={props.section4} id="section4">
+        <div className={props.section4} id="section4">
             <div class="carousel-wrapper">
                 <span className="l-br">-</span>
                 <span className="l-br">-</span>

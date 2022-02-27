@@ -7,7 +7,7 @@ const Section = (props) => {
     setIsOpen(true);
   };
   return (
-    <div ref={props.section} className="container">
+    <div className={props.section}>
       <div id="section3" className="habilidad">
         <span className="l-br">-</span>
         <span className="l-br">-</span>
