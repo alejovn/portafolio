@@ -33,16 +33,19 @@
     font-size: 18px;
 }
 
-.habilidades h1{
-    display: flex;
-    justify-content: center;
-    align-items: center;
+.header-habilidad h1{
+    text-align: left;
+    width: 60%;
+    margin-left: 30%;
+    padding: 7px
 }
 
 .img-habilidades{
-    width: 70px;
-    height: 70px;
-    margin: 5px auto;
+    background-color: darkgray;
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    margin-left: 20px;
     padding: auto;
 }
 .img-habilidades img{
@@ -112,7 +115,8 @@
 
 .btn-div{
     width: 50%;
-    margin: 0 auto;
+    margin-left: 35%;
+    margin-top: -70px
 }
 .ver-mas {
     margin: auto;

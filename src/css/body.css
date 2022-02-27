@@ -339,11 +339,11 @@
   
 @-webkit-keyframes square {
   0%   { transform: translateY(0); }
-  100% { transform: translateY(-1100px) rotate(600deg); }
+  100% { transform: translateY(-1000px) rotate(600deg); }
 }
 @keyframes square {
   0%   { transform: translateY(0); }
-  100% { transform: translateY(-1100px) rotate(600deg); }
+  100% { transform: translateY(-3700px) rotate(600deg); }
 }
 
   

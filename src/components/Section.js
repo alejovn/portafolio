@@ -17,10 +17,20 @@ const Section = (props) => {
         <div className="row _fondo-section">
           <div className="col-4">
             <div className={"habilidades " + props.classNameH}>
-              <span className="l-br-s">-</span>
-              <h1>Java</h1>
-              <div className="img-habilidades">
-                <img className="" src="img/java.png" />
+              <div className="header-habilidad">
+                <span className="l-br-s">-</span>
+                <div className="img-habilidades">
+                  <img className="" src="img/java.png" />
+                </div>
+                <div className="btn-div">
+                <a onClick={() => abrirModal()} class="ver-mas">
+                  <div>
+                    <span></span>
+                  </div>
+                  <p>Ver más</p>
+                </a>
+              </div>
+                <h1>Java</h1>
               </div>
               <div className="codigo-java">
                 <ul>
@@ -30,14 +40,6 @@ const Section = (props) => {
                   <li>4 <span className="tap1">{'}'}</span></li>
                   <li>5 <span>{'}'}</span></li>
                 </ul>
-              </div>
-              <div className="btn-div">
-                <a onClick={() => abrirModal()} class="ver-mas">
-                  <div>
-                    <span></span>
-                  </div>
-                  <p>Ver más</p>
-                </a>
               </div>
             </div>
           </div>
@@ -255,7 +257,7 @@ const Section = (props) => {
           </div>
           <div className="col-4">
             <div className={"habilidades " + props.classNameH}>
-            <span className="l-br-s">-</span>
+              <span className="l-br-s">-</span>
               <div>
                 <h1>Otras Habilidades</h1>
               </div>

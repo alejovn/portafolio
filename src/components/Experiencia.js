@@ -129,7 +129,7 @@ const Experiencia = (props) => {
                     </div>
                 </Modal>
             </div>
-
+            
         </div>
     );
 }

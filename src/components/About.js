@@ -38,19 +38,6 @@ const About = (props) => {
                         </div>
                     </div>
                 </div>
-                
-                <ul className="bg-bubbles">
-                    <li></li>
-                    <li></li>
-                    <li></li>
-                    <li></li>
-                    <li></li>
-                    <li></li>
-                    <li></li>
-                    <li></li>
-                    <li></li>
-                    <li></li>
-                </ul>
             </div>
         </div>
     );
