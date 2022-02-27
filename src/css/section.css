@@ -23,7 +23,7 @@
 
 
 .habilidades {
-    height: 350px;
+    height: 340px;
     border-radius: 10px;
     -webkit-box-shadow: 0 0 5px 2px gray;
     -moz-box-shadow: 0 0 5px 2px gray;
@@ -36,12 +36,12 @@
 .header-habilidad h1{
     text-align: left;
     width: 60%;
-    margin-left: 30%;
+    margin-left: 35%;
     padding: 7px
 }
 
 .img-habilidades{
-    margin-left: 20px;
+    margin-left: 30px;
     display:block;
     border: 1px solid #ddd;
     border-radius: 4px;
@@ -50,16 +50,17 @@
     height: 100px;
     border-radius: 100%;
 }
-.img-habilidades img{
-    width: 100%;
-    height: auto;
+
+.otra-habilidad{
+    text-align: center;
 }
 
-
 .codigo-java{
+    background-color:#6A98F0;
     width: 90%;
     height: 160px;
-    margin: 10px auto;
+    margin: 20px auto;
+    padding: 10px;
 }
 .codigo-java ul{
     list-style: none;
@@ -117,7 +118,7 @@
 
 .btn-div{
     width: 50%;
-    margin-left: 35%;
+    margin-left: 40%;
     margin-top: -75px
 }
 .ver-mas {
@@ -217,7 +218,13 @@
 
  @media screen and (max-width: 768px){
     .codigo-java{
-        width: 85%;
+        width: 90%;
+    }
+    .header-habilidad h1{
+        margin-left: 35%;
+    }
+    .btn-div{
+        margin-left: 40%;
     }
  }
   
