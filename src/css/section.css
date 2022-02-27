@@ -42,18 +42,20 @@
 
 .img-habilidades{
     margin-left:30px;
-    display:block;
-    border: 1px solid #ddd;
-    border-radius: 4px;
-    padding: 5px;
+    position: relative;
     width: 100px;
     height: 100px;
-    border-radius: 100%;
+    background-color: #ddd;
+    border-radius: 50%;
 }
 
 .img-habilidades img{
-    width: 95%;
-    height: 95%;
+    position: absolute; 
+    width: 100px;
+    top: 25%; 
+    right: 0; 
+    left: 0; 
+    margin: 0 auto;
 }
 
 .otra-habilidad{
