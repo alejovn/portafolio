@@ -11,7 +11,6 @@
     margin:5px auto;
     background-color: aquamarine;
     width: 400px;
-    height: 500px;
     overflow: hidden;
 }
 .img-sobreMi img{
@@ -117,6 +116,9 @@
         padding: 15px;
         padding-top: 30px;
         padding-bottom: 30px;
+    }
+    .img-sobreMi{
+        width: 350px;
     }
       
 }
