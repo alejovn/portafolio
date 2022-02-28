@@ -19,7 +19,7 @@ const Section = (props) => {
         <div className="row _fondo-section">
           <div className="col-4">
             <div className={"habilidades " + props.classNameH}>
-              <div className="header-habilidad">
+              <div className="img_content">
                 <span className="l-br-s">-</span>
                 <div className="img_">
                   <img src="img/java.png" />

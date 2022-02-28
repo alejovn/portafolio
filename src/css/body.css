@@ -6,7 +6,7 @@
   }
 
   .containerDark{
-    background: linear-gradient(to bottom, rgb(5, 5, 5), rgb(155, 148, 148));
+    background: linear-gradient(to bottom, rgb(26, 25, 25), rgb(155, 148, 148));
   }
   .containerLight{
     background: linear-gradient(to bottom, rgb(208, 215, 235), rgb(255, 255, 255));
