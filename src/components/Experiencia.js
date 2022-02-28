@@ -65,8 +65,8 @@ const Experiencia = (props) => {
                             </div>
                             <div className="col-4">
                                 <div className="img_content">
-                                    <div className="img-habilidades">
-                                        <img className="" src="img/java.png" />
+                                    <div className="img_">
+                                        <img src="img/java.png" />
                                     </div>
                                     <div className="linea-E"></div>
                                     <p>El lenguaje de programacion utilizado para el de sarrollo
@@ -87,13 +87,13 @@ const Experiencia = (props) => {
                             </div>
                         </div>
                         <div className="row">
-                            <div className="col-6">
-                                <button className="btn-ex" onClick={() => abrirModal(1)}><span className="fa fa-eye"></span> Ver video sobre el app</button>
-                            </div>
-                            <div className="col-6">
-                                <a href="Punto de venta.apk" download="Punto_venta.apk"> Link de descarga del APK de la app </a>
-                            </div>
-
+                        <div className="col-6">
+                        <button className="btn-ex" onClick={() => abrirModal(1)}><span className="fa fa-eye"></span> Ver video sobre el app</button>
+                        </div>
+                        <div className="col-6">
+                        <a href="Punto de venta.apk" download="Punto_venta.apk"> Link de descarga del APK de la app </a>
+                        </div>
+                            
                         </div>
 
                     </div>
@@ -129,7 +129,7 @@ const Experiencia = (props) => {
                     </div>
                 </Modal>
             </div>
-
+            
         </div>
     );
 }
