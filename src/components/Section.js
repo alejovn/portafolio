@@ -21,8 +21,8 @@ const Section = (props) => {
             <div className={"habilidades " + props.classNameH}>
               <div className="header-habilidad">
                 <span className="l-br-s">-</span>
-                <div className="img-habilidades">
-                  <img className="" src="img/java.png" />
+                <div className="img_">
+                  <img src="img/java.png" />
                 </div>
                 <div className="btn-div">
                   <a onClick={() => abrirModal()} class="ver-mas">
@@ -171,7 +171,7 @@ const Section = (props) => {
           </div>
           <div className="col-4">
             <div className={"habilidades " + props.classNameH}>
-            <div className="header-habilidad">
+              <div className="header-habilidad">
                 <span className="l-br-s">-</span>
                 <div className="img-habilidades">
                   <img className="" src="img/angular.png" />
@@ -201,7 +201,7 @@ const Section = (props) => {
         <div className="row _fondo-section">
           <div className="col-4">
             <div className={"habilidades " + props.classNameH}>
-            <div className="header-habilidad">
+              <div className="header-habilidad">
                 <span className="l-br-s">-</span>
                 <div className="img-habilidades">
                   <img src="img/react_.png" />
@@ -233,7 +233,7 @@ const Section = (props) => {
 
           <div className="col-4">
             <div className={"habilidades " + props.classNameH}>
-            <div className="header-habilidad">
+              <div className="header-habilidad">
                 <span className="l-br-s">-</span>
                 <div className="img-habilidades">
                   <img className="" src="img/python_.png" />
