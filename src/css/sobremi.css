@@ -1,8 +1,23 @@
-
+.centrado{
+    margin:10px auto;
+    display:block;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 5px;
+    width: 300px;
+    border-radius: 100%;
+}
 .img-sobreMi{
-    background-color: rgb(128, 177, 221);
-    margin-left : 10px;
-    width: 90%;
+    margin:5px auto;
+    background-color: aquamarine;
+    width: 400px;
+    height: 500px;
+    overflow: hidden;
+}
+.img-sobreMi img{
+    display:block;
+    max-width:100%;
+    height:auto;
 }
 
 .contactDark{
