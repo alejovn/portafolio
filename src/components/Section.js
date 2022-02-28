@@ -236,7 +236,7 @@ const Section = (props) => {
             <div className="header-habilidad">
                 <span className="l-br-s">-</span>
                 <div className="img-habilidades">
-                  <img className="" src="img/python_.png" />
+                  <img className="" src="img/python.png" />
                 </div>
                 <div className="btn-div">
                   <a onClick={() => abrirModal()} class="ver-mas">

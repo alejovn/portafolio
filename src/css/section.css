@@ -12,7 +12,7 @@
 }
 
 .habilidadDark{
-    background-color:#1d1919;
+    background-color:#302e2e;
     color: white;
 }
 .habilidadLight{
@@ -35,7 +35,7 @@
 
 .linea-habilidad{
     border-top: 1px solid #155bdd;
-    height: 2px;
+    height: 1px;
     max-width: 100%;
     padding: 0;
     margin: 5px auto 0 auto;
@@ -64,11 +64,11 @@
 }
 
 .img-habilidades{
+    border: 2px solid #6A98F0;
     margin-left:30px;
     position: relative;
     width: 100px;
     height: 100px;
-    background-color: rgb(175, 168, 168);
     border-radius: 50%;
     padding: 5px 5px 5px 5px;
     overflow:hidden;
