@@ -6,6 +6,7 @@ import './css/contact.css';
 import './css/section.css';
 import './css/footer.css';
 import './css/experiencia.css';
+import './css/carousel_.css';
 import React, { useState, useEffect } from 'react';
 import MenuLado from './components/MenuLado';
 import About from './components/About';
@@ -37,10 +38,6 @@ function App() {
   const pUCodigo = React.createRef();
   const content = React.createRef();
   
-  const android = React.createRef();
-  const php = React.createRef();
-  const java = React.createRef();
-  
   const contacto_div = React.createRef();
 
   useEffect(() => {
@@ -57,10 +54,6 @@ function App() {
       button.current.style.color = 'white';
 
       contacto_div.current.style.backgroundColor = '#383838';
-
-      android.current.style.backgroundColor = '#383838';
-      php.current.style.backgroundColor = '#383838';
-      java.current.style.backgroundColor = '#383838';
 
       codigo.current.style.backgroundColor = 'black';
       codigo.current.style.color = 'black';
@@ -85,11 +78,6 @@ function App() {
       button.current.style.color = 'black';
 
       contacto_div.current.style.backgroundColor = 'white';
-
-      android.current.style.backgroundColor = 'white';
-      php.current.style.backgroundColor = 'white';
-      java.current.style.backgroundColor = 'white';
-
       codigo.current.style.backgroundColor = 'white';
       codigo.current.style.color = 'white';
       pDosCodigo.current.style.color = 'black';
@@ -109,7 +97,7 @@ function App() {
         pDosCodigo={pDosCodigo} lCodigo={lCodigo} pUCodigo={pUCodigo} />
       <Sobremi contact={contact} content={content} />
       <Section classNameH={classNameH} section={section} />
-      <Experiencia section4={section4} android={android} php={php} java={java} />
+      <Experiencia section4={section4}/>
 
       <Contact section5={section5} contacto_div={contacto_div} />
 
