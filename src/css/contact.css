@@ -1,5 +1,6 @@
-#section5{
-    padding: 40px;
+.section5-fondo{
+    width: 90%;
+    margin: 0 auto;
 }
 .section5Dark{
     background: linear-gradient(to bottom, rgb(5, 5, 5), rgb(155, 148, 148));
@@ -11,7 +12,6 @@
     color: black;
 }
 .contacto-div{
-    width: 95%; 
     margin: 0px auto;
     border-radius: 10px;
     -webkit-box-shadow: 0 0 5px 2px gray;
@@ -19,7 +19,7 @@
     box-shadow: 0 0 5px 2px gray;
 }
 .contact-area{
-  padding-top: 30px;
+  padding-top: 20px;
   padding-bottom: 20px;  
   padding-left: 10px; 
 }

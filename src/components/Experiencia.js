@@ -15,7 +15,8 @@ const Experiencia = (props) => {
                 <span className="l-br">-</span>
                 <Carousel_ experiencia={props.experiencia}/>
             </div>
-            
+            <span className="l-br">-</span>
+            <span className="l-br">-</span>
         </div >
     );
 }

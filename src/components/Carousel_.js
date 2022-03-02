@@ -6,7 +6,7 @@ const Carousel_ = (props) => {
         dots: true,
         infinite: true,
         autoplay: true,
-        speed: 2000,
+        speed: 600,
         slidesToShow: 2,
         slidesToScroll: 2,
         initialSlide: 0,
@@ -62,32 +62,136 @@ const Carousel_ = (props) => {
                     </div>
                 </div>
                 <div>
-                    <div className="experiencia_">
-
+                <div className={"experiencia_ experiencia"+props.experiencia}>
+                        <h4>Tic Tac Toe con React</h4>
+                        <div className="img-experiencia">
+                            <div className="img-ex2">
+                                <img src="img/react.png" />
+                            </div>
+                            <div className="img-ex2-mas">
+                                <img src="img/plus_.png" />
+                            </div>
+                            <div className="img-ex2">
+                                <img src="img/gato.png" />
+                            </div>
+                        </div>
+                        <div className={"footer-experiencia_ footer"+props.experiencia}>
+                            <a href="https://alejovn.github.io/Gato/" target="_blank">Tic tac toe</a>
+                        </div>
                     </div>
                 </div>
                 <div>
-                    <div className="experiencia_">
+                <div className={"experiencia_ experiencia"+props.experiencia}>
+                        <h4>Tic Tac Toe con React</h4>
+                        <div className="img-experiencia">
+                            <div className="img-ex2">
+                                <img src="img/react.png" />
+                            </div>
+                            <div className="img-ex2-mas">
+                                <img src="img/plus_.png" />
+                            </div>
+                            <div className="img-ex2">
+                                <img src="img/gato.png" />
+                            </div>
+                        </div>
+                        <div className={"footer-experiencia_ footer"+props.experiencia}>
+                            <a href="https://alejovn.github.io/Gato/" target="_blank">Tic tac toe</a>
+                        </div>
                     </div>
                 </div>
                 <div>
-                    <div className="experiencia_">
+                <div className={"experiencia_ experiencia"+props.experiencia}>
+                        <h4>Tic Tac Toe con React</h4>
+                        <div className="img-experiencia">
+                            <div className="img-ex2">
+                                <img src="img/react.png" />
+                            </div>
+                            <div className="img-ex2-mas">
+                                <img src="img/plus_.png" />
+                            </div>
+                            <div className="img-ex2">
+                                <img src="img/gato.png" />
+                            </div>
+                        </div>
+                        <div className={"footer-experiencia_ footer"+props.experiencia}>
+                            <a href="https://alejovn.github.io/Gato/" target="_blank">Tic tac toe</a>
+                        </div>
                     </div>
                 </div>
                 <div>
-                    <div className="experiencia_">
+                <div className={"experiencia_ experiencia"+props.experiencia}>
+                        <h4>Tic Tac Toe con React</h4>
+                        <div className="img-experiencia">
+                            <div className="img-ex2">
+                                <img src="img/react.png" />
+                            </div>
+                            <div className="img-ex2-mas">
+                                <img src="img/plus_.png" />
+                            </div>
+                            <div className="img-ex2">
+                                <img src="img/gato.png" />
+                            </div>
+                        </div>
+                        <div className={"footer-experiencia_ footer"+props.experiencia}>
+                            <a href="https://alejovn.github.io/Gato/" target="_blank">Tic tac toe</a>
+                        </div>
                     </div>
                 </div>
                 <div>
-                    <div className="experiencia_">
+                <div className={"experiencia_ experiencia"+props.experiencia}>
+                        <h4>Tic Tac Toe con React</h4>
+                        <div className="img-experiencia">
+                            <div className="img-ex2">
+                                <img src="img/react.png" />
+                            </div>
+                            <div className="img-ex2-mas">
+                                <img src="img/plus_.png" />
+                            </div>
+                            <div className="img-ex2">
+                                <img src="img/gato.png" />
+                            </div>
+                        </div>
+                        <div className={"footer-experiencia_ footer"+props.experiencia}>
+                            <a href="https://alejovn.github.io/Gato/" target="_blank">Tic tac toe</a>
+                        </div>
                     </div>
                 </div>
                 <div>
-                    <div className="experiencia_">
+                <div className={"experiencia_ experiencia"+props.experiencia}>
+                        <h4>Tic Tac Toe con React</h4>
+                        <div className="img-experiencia">
+                            <div className="img-ex2">
+                                <img src="img/react.png" />
+                            </div>
+                            <div className="img-ex2-mas">
+                                <img src="img/plus_.png" />
+                            </div>
+                            <div className="img-ex2">
+                                <img src="img/gato.png" />
+                            </div>
+                        </div>
+                        <div className={"footer-experiencia_ footer"+props.experiencia}>
+                            <a href="https://alejovn.github.io/Gato/" target="_blank">Tic tac toe</a>
+                        </div>
                     </div>
                 </div>
                 <div>
-                    <div className="experiencia_">
+                <div className={"experiencia_ experiencia"+props.experiencia}>
+                        <h4>Tic Tac Toe con React</h4>
+                        <div className="img-experiencia">
+                            <div className="img-ex2">
+                                <img src="img/react.png" />
+                            </div>
+                            <div className="img-ex2-mas">
+                                <img src="img/plus_.png" />
+                            </div>
+                            <div className="img-ex2">
+                                <img src="img/gato.png" />
+                            </div>
+                        </div>
+                        <div className={"footer-experiencia_ footer"+props.experiencia}>
+                            <a href="https://alejovn.github.io/Gato/" target="_blank">Tic tac toe</a>
+                        </div>
                     </div>
                 </div>
             </Slider>

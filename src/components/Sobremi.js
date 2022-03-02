@@ -34,6 +34,8 @@ const Sobremi = (props) => {
                     </div>
                 </div>
             </div>
+            <span className="l-br">-</span>
+            <span className="l-br">-</span>
         </div>
     )
 }
