@@ -31,7 +31,7 @@ const Contact = (props) => {
     };
 
     return (
-        <div ref={props.section5} id="section5">
+        <div className={props.section5} id="section5">
             <div ref={props.contacto_div} className="contacto-div">
                 <div className="row">
                     <div className="col-6">

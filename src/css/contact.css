@@ -1,6 +1,15 @@
 #section5{
     padding: 40px;
 }
+.section5Dark{
+    background: linear-gradient(to bottom, rgb(5, 5, 5), rgb(155, 148, 148));
+    color: white;
+}
+
+.section5Light{
+    background: linear-gradient(to bottom, rgb(208, 215, 235), rgb(255, 255, 255));
+    color: black;
+}
 .contacto-div{
     width: 95%; 
     margin: 0px auto;

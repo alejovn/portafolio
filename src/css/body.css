@@ -121,11 +121,11 @@
 }
 .contenedor h2 {
   font-size: 35px;
-  color: red;
+  color: #155bdd;
   margin-bottom: 20px;
 }
 .contenedor h1 span{
-  color:red;
+  color:#155bdd;
 }
 .btn {
   background-color: #6A98F0;

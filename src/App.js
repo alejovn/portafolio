@@ -24,6 +24,7 @@ function App() {
   const [contact, setContact] = useState("contactDark");
   const [section, setSection] = useState("sectionDark");
   const [section4, setSection4] = useState("section4Dark");
+  const [section5, setSection5] = useState("section5Dark");
 
   const nav = React.createRef();
   const a = React.createRef();
@@ -39,7 +40,7 @@ function App() {
   const android = React.createRef();
   const php = React.createRef();
   const java = React.createRef();
-  const section5 = React.createRef();
+  
   const contacto_div = React.createRef();
 
   useEffect(() => {
@@ -48,13 +49,12 @@ function App() {
       setContainer("containerDark");
       setContact("contactDark");
       setSection("sectionDark");
-      setSection4("section4Dark")
+      setSection4("section4Dark");
+      setSection5("section5Dark");
       nav.current.style.backgroundColor = '#383838';
       a.current.style.color = 'white';
       button.current.style.backgroundColor = '#383838';
       button.current.style.color = 'white';
-      section5.current.style.backgroundColor = '#303030';
-      section5.current.style.color = 'white';
 
       contacto_div.current.style.backgroundColor = '#383838';
 
@@ -76,15 +76,13 @@ function App() {
       setClassNameH("habilidadLight");
       setContainer("containerLight");
       setContact("contactLight");
-      setSection("sectionLigth");
+      setSection("sectionLight");
       setSection4("section4Light");
+      setSection5("section5Light");
       nav.current.style.backgroundColor = 'white';
       a.current.style.color = 'black';
       button.current.style.backgroundColor = 'white';
       button.current.style.color = 'black';
-
-      section5.current.style.backgroundColor = 'white';
-      section5.current.style.color = 'black';
 
       contacto_div.current.style.backgroundColor = 'white';
 
@@ -114,6 +112,7 @@ function App() {
       <Experiencia section4={section4} android={android} php={php} java={java} />
 
       <Contact section5={section5} contacto_div={contacto_div} />
+
       <ul className="bg-bubbles">
         <li></li>
         <li></li>

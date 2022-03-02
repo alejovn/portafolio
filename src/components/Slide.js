@@ -9,10 +9,11 @@ class Slide extends Component {
         {title: "|"},{title: "D|"},{title: "De|",},{title: "Des|",},{title: "Desa|",},{title: "Desar|",},
         {title: "Desarr|",},{title: "Desarro|",},{title: "Desarrol|",},{title: "Desarroll|",},
         {title: "Desarrolla|",},{title: "Desarrollad|",},{title: "Desarrollado|",},{title: "Desarrollador|",},
-        {title: "Desarrollador |",},{title: "Desarrollador j|",},{title: "Desarrollador ju|",},{title: "Desarrollador jun|",},
-        {title: "Desarrollador juni|",},{title: "Desarrollador junio|",},{title: "Desarrollador junior|",},
-        {title: "Desarrollador junior.|",},{title: "Desarrollador junior.",},{title: "Desarrollador junior.",},
-        {title: "Desarrollador junior.",}
+        {title: "Desarrollador |",},{title: "Desarrollador F|",},{title: "Desarrollador Fu|",},{title: "Desarrollador Ful|",},
+        {title: "Desarrollador Full|",},{title: "Desarrollador Full |",},{title: "Desarrollador Full S|",},
+        {title: "Desarrollador Full St|",},{title: "Desarrollador Full Sta|",},{title: "Desarrollador Full Stac|",},
+        {title: "Desarrollador Full Stack|",},{title: "Desarrollador Full Stack.|",},{title: "Desarrollador Full Stack.",},
+        {title: "Desarrollador Full Stack.",},{title: "Desarrollador Full Stack.",},{title: "Desarrollador Full Stack.",}
       ],
       id_interval: null
     };

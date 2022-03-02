@@ -13,10 +13,12 @@
 
 .section4Dark{
   background: linear-gradient(to top, rgb(5, 5, 5), rgb(155, 148, 148));
+  color: white;
 }
 
 .section4Light{
   background: linear-gradient(to top, rgb(208, 215, 235), rgb(255, 255, 255));
+  color: black;
 }
 
 .seperator {
