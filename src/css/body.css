@@ -1,28 +1,22 @@
 * {
     box-sizing: border-box;
   }
-  body{
-    background-color: rgb(196, 147, 147);
-  }
 
   .containerDark{
-    background: linear-gradient(to bottom, rgb(5, 5, 5), rgb(155, 148, 148));
+    background-color:rgb(100, 101, 105);
+    background-image: url("/public/img/fondo.jpg");
+    background-repeat: no-repeat;
+    background-size: content;
+    background-blend-mode: multiply;
   }
   .containerLight{
-    background: linear-gradient(to bottom, rgb(208, 215, 235), rgb(255, 255, 255));
+    background-color:rgb(210, 217, 243);
+    background-image: url("/public/img/fondo.jpg");
+    background-repeat: no-repeat;
+    background-size: content;
+    background-blend-mode: multiply;
   }
   
-  .fondo-color{
-    background-color: burlywood;
-  }
-
-  .color-fondo-contact{
-    background-color:darkcyan;
-  }
-
-  .color-fondo-section{
-    background-color: cadetblue;
-  }
   .row::after {
     content: "";
     clear: both;
@@ -366,11 +360,7 @@
     }
     .contenedor h2 {
       font-size: 25px;
-      color: brown;
       margin-top: 0%;
-    }
-    .contenedor h1 span{
-      color: brown;
     }
     .up{
       margin-left:5px;
