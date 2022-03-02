@@ -3,18 +3,10 @@
   }
 
   .containerDark{
-    background-color:rgb(100, 101, 105);
-    background-image: url("/public/img/fondo.jpg");
-    background-repeat: no-repeat;
-    background-size: content;
-    background-blend-mode: multiply;
+    background: linear-gradient(to bottom, rgb(5, 5, 5), rgb(155, 148, 148));
   }
   .containerLight{
-    background-color:rgb(210, 217, 243);
-    background-image: url("/public/img/fondo.jpg");
-    background-repeat: no-repeat;
-    background-size: content;
-    background-blend-mode: multiply;
+    background: linear-gradient(to bottom, rgb(208, 215, 235), rgb(255, 255, 255));
   }
   
   .row::after {
@@ -360,7 +352,11 @@
     }
     .contenedor h2 {
       font-size: 25px;
+      color: brown;
       margin-top: 0%;
+    }
+    .contenedor h1 span{
+      color: brown;
     }
     .up{
       margin-left:5px;
