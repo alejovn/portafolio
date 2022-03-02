@@ -79,9 +79,7 @@
     -webkit-font-smoothing:antialiased;
     -moz-osx-font-smoothing:grayscale
 }
-.slick-loading .slick-list{
-    background:url("/public/img/ajax.gif") center center no-repeat #fff
-}
+
 @font-face{
     font-family:slick;
     font-weight:400;
