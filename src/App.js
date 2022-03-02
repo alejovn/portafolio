@@ -26,6 +26,7 @@ function App() {
   const [section, setSection] = useState("sectionDark");
   const [section4, setSection4] = useState("section4Dark");
   const [section5, setSection5] = useState("section5Dark");
+  const [experiencia, setExperiencia] = useState("Dark")
 
   const nav = React.createRef();
   const a = React.createRef();
@@ -48,6 +49,7 @@ function App() {
       setSection("sectionDark");
       setSection4("section4Dark");
       setSection5("section5Dark");
+      setExperiencia("Dark")
       nav.current.style.backgroundColor = '#383838';
       a.current.style.color = 'white';
       button.current.style.backgroundColor = '#383838';
@@ -72,6 +74,7 @@ function App() {
       setSection("sectionLight");
       setSection4("section4Light");
       setSection5("section5Light");
+      setExperiencia("Light")
       nav.current.style.backgroundColor = 'white';
       a.current.style.color = 'black';
       button.current.style.backgroundColor = 'white';
@@ -97,7 +100,7 @@ function App() {
         pDosCodigo={pDosCodigo} lCodigo={lCodigo} pUCodigo={pUCodigo} />
       <Sobremi contact={contact} content={content} />
       <Section classNameH={classNameH} section={section} />
-      <Experiencia section4={section4}/>
+      <Experiencia section4={section4} experiencia={experiencia}/>
 
       <Contact section5={section5} contacto_div={contacto_div} />
 

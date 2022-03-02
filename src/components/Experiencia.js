@@ -13,7 +13,7 @@ const Experiencia = (props) => {
                 <h1 className="h1-title">Experiencia</h1>
                 <div className="linea-habilidad"></div>
                 <span className="l-br">-</span>
-                <Carousel_ />
+                <Carousel_ experiencia={props.experiencia}/>
             </div>
             
         </div >
