@@ -51,7 +51,7 @@ class Carousel_ extends Component {
                                     <img src="img/react.png" />
                                 </div>
                                 <div className="img-habilidades">
-                                    <img src="img/plus.png" />
+                                    <img src="img/plus_.png" />
                                 </div>
                                 <div className="img-habilidades">
                                     <img src="img/gato.png" />
