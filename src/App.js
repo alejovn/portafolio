@@ -7,6 +7,7 @@ import './css/section.css';
 import './css/footer.css';
 import './css/experiencia.css';
 import './css/carousel_.css';
+import './css/fondo_svg.css'
 import React, { useState, useEffect } from 'react';
 import MenuLado from './components/MenuLado';
 import About from './components/About';
@@ -31,14 +32,14 @@ function App() {
   const nav = React.createRef();
   const a = React.createRef();
   const button = React.createRef();
-  
+
   const codigo = React.createRef();
   const pCodigo = React.createRef();
   const pDosCodigo = React.createRef();
   const lCodigo = React.createRef();
   const pUCodigo = React.createRef();
   const content = React.createRef();
-  
+
   const contacto_div = React.createRef();
 
   useEffect(() => {
@@ -96,30 +97,37 @@ function App() {
   return (
     <div className="App">
       <MenuLado setCount={setCount} count={count} nav={nav} a={a} button={button} />
-      <About container={container} codigo={codigo} pCodigo={pCodigo}
-        pDosCodigo={pDosCodigo} lCodigo={lCodigo} pUCodigo={pUCodigo} />
-      <Sobremi contact={contact} content={content} />
-      <Section classNameH={classNameH} section={section} />
-      <Experiencia section4={section4} experiencia={experiencia}/>
+      <div className="container">
+        <svg viewBox="0 0 500 500"
+          preserveAspectRatio="xMinYMin meet">
+          <path d="M0, 100 C150, 200 350,0 500, 100 L500, 00 L0, 0 Z">
+          </path>
+        </svg>
+        <About container={container} codigo={codigo} pCodigo={pCodigo}
+          pDosCodigo={pDosCodigo} lCodigo={lCodigo} pUCodigo={pUCodigo} />
+        <Sobremi contact={contact} content={content} />
+        <Section classNameH={classNameH} section={section} />
+        <Experiencia section4={section4} experiencia={experiencia} />
 
-      <Contact section5={section5} contacto_div={contacto_div} />
+        <Contact section5={section5} contacto_div={contacto_div} />
 
-      <ul className="bg-bubbles">
-        <li></li>
-        <li></li>
-        <li></li>
-        <li></li>
-        <li></li>
-        <li></li>
-        <li></li>
-        <li></li>
-        <li></li>
-        <li></li>
-      </ul>
-      <Footer />
-      
+        <ul className="bg-bubbles">
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+        </ul>
+        <Footer />
 
-      <Link to="section1" smooth={true}><i><span className="ir-arriba fa fa-chevron-up"></span></i></Link>
+
+        <Link to="section1" smooth={true}><i><span className="ir-arriba fa fa-chevron-up"></span></i></Link>
+      </div>
     </div>
   );
 }

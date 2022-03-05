@@ -228,3 +228,10 @@
     border-bottom-left-radius: 10px;
     border-bottom-right-radius: 10px;
 }
+
+
+@media screen and (max-width: 850px) {
+    .img-experiencia{
+        width: 350px;
+    }
+}

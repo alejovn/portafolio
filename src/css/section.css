@@ -31,6 +31,7 @@
 
 .h1-title{
     color:#155bdd;
+    font-size: 30px;
 }
 
 .linea-habilidad{
@@ -253,6 +254,9 @@
     }
     .btn-div{
         margin-left: 40%;
+    }
+    .h1-title{
+        font-size: 26px;
     }
  }
   

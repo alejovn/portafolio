@@ -10,7 +10,7 @@ const Experiencia = (props) => {
                 <span className="l-br">-</span>
                 <span className="l-br">-</span>
                 <span className="l-br">-</span>
-                <h1 className="h1-title">Experiencia</h1>
+                <h1 className="h1-title">Proyectos personales</h1>
                 <div className="linea-habilidad"></div>
                 <span className="l-br">-</span>
                 <Carousel_ experiencia={props.experiencia}/>

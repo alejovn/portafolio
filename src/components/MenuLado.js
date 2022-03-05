@@ -31,7 +31,7 @@ const MenuLado = (props) => {
                         <li><Link activeClass="active" to="section1" spy={true} duration={2000} className='hover-underline-animation' smooth={true} onClick={() => openMenu()}><i className='fa fa-home'></i> Home</Link></li>
                         <li><Link activeClass="active" to="section2" spy={true} duration={2000} className='hover-underline-animation' smooth={true} onClick={() => openMenu()}><i className='fa fa-user-secret'></i> Sobre mi</Link></li>
                         <li><Link activeClass="active" to="section3" spy={true} duration={2000} className='hover-underline-animation' smooth={true} onClick={() => openMenu()}><i className='fa fa-certificate'></i> Habilidades</Link></li>
-                        <li><Link activeClass="active" to="section4" spy={true} duration={2000} className='hover-underline-animation' smooth={true} onClick={() => openMenu()}><i className='fa fa-briefcase'></i> Experiencia</Link></li>
+                        <li><Link activeClass="active" to="section4" spy={true} duration={2000} className='hover-underline-animation' smooth={true} onClick={() => openMenu()}><i className='fa fa-laptop'></i> Mis Proyectos</Link></li>
                         <li><Link activeClass="active" to="section5" spy={true} duration={2000} className='hover-underline-animation' smooth={true} onClick={() => openMenu()}><i className='fa fa-address-card'></i> Contacto</Link></li>
                     </ul>
                 </nav>
