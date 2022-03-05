@@ -400,5 +400,9 @@ div[role='alert'] {
         margin-top: 20px;
         margin-left: 0px;
     }
+    .contact nav a .icon {
+        margin-right: 0px;
+        margin-left: 15px;
+    }
 }
       
