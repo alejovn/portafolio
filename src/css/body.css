@@ -345,7 +345,7 @@ html {
 }
 @keyframes square {
   0%   { transform: translateY(0); }
-  100% { transform: translateY(-3700px) rotate(600deg); }
+  100% { transform: translateY(-3920px) rotate(600deg); }
 }
 
   
@@ -377,10 +377,6 @@ html {
       width: 350px;
       height: 320px;
     }
-    
-    .bg-bubbles{
-      display: none;
-    }
     .net{
       margin-left: -17px;
     }
@@ -404,6 +400,16 @@ html {
     }
     .cita p{
       padding: 10px;
+    }
+    .bg-bubbles li:nth-child(6){
+      left: 50%;
+    }
+    .bg-bubbles li:nth-child(10){
+      left: 30%;
+    }
+    @keyframes square {
+      0%   { transform: translateY(0); }
+      100% { transform: translateY(-6520px) rotate(600deg); }
     }
 }
 .ir-arriba {

@@ -15,5 +15,11 @@ svg {
 
 path{
     stroke:none; 
-    fill:#155bdd;
+    fill:rgba(19, 167, 212, 0.7);
+}
+
+@media screen and (max-width: 850px) {
+    svg {
+        top: 70px;
+    }
 }
