@@ -4,12 +4,12 @@
 
 .containerDark{
   width: 100%;
-  height: 800px;
+  height: 600px;
   background: linear-gradient(to bottom, rgb(5, 5, 5), rgb(155, 148, 148));
 }
 .containerLight{
   width: 100%;
-  height: 800px;
+  height: 600px;
   background: linear-gradient(to bottom, rgb(208, 215, 235), rgb(255, 255, 255));
 }
   
@@ -367,10 +367,12 @@ html {
       color: #155bdd;
     }
     .up{
+      position: relative;
       margin-left:5px;
       margin-top: 45px;
     }
     .codigo{
+      position: relative;
       margin:10px auto;
       width: 350px;
       height: 320px;
