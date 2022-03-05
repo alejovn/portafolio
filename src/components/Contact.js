@@ -135,7 +135,7 @@ const Contact = (props) => {
                                     <nav className={isActive ? 'active' : null}>
                                         <a href="#" className="gmail">
                                             <div className="icon">
-                                                <img className="" src="img/email.png" />
+                                                <img className="" src="img/gmail.png" />
                                             </div>
 
                                             <div className="content">
@@ -148,7 +148,7 @@ const Contact = (props) => {
 
                                         <a href="#" className="facebook">
                                             <div className="icon">
-                                                <img className="" src="img/email.png" />
+                                                <img className="" src="img/whatsapp.png" />
                                             </div>
 
                                             <div className="content">
@@ -161,7 +161,7 @@ const Contact = (props) => {
 
                                         <a href="#" className="twitter">
                                             <div className="icon">
-                                                <img className="" src="img/email.png" />
+                                                <img className="" src="img/twitter.png" />
                                             </div>
 
                                             <div className="content">
