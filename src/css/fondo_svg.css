@@ -1,4 +1,4 @@
-svg {
+.container svg {
     position: absolute;
     top: 0;
     left: 0;
@@ -13,13 +13,13 @@ svg {
     left: 0;
 }
 
-path{
+.container path{
     stroke:none; 
     fill:rgba(19, 167, 212, 0.7);
 }
 
 @media screen and (max-width: 850px) {
-    svg {
+    .container svg {
         top: 70px;
     }
 }

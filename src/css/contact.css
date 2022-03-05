@@ -344,20 +344,26 @@ div[role='alert'] {
 .contact nav a .arrow path {
     fill: #e6e6e6;
 }
-.contact nav a.gmail .icon svg {
-    background-color: #d14836;
+.contact nav a.gmail .icon img {
+    display:block;
+    max-width:100%;
+    height:auto;
 }
 .contact nav a.gmail .content h1 {
     color: #d14836;
 }
-.contact nav a.facebook .icon svg {
-    background-color: #3b5998;
+.contact nav a.facebook .icon img {
+    display:block;
+    max-width:100%;
+    height:auto;
 }
 .contact nav a.facebook .content h1 {
     color: #3b5998;
 }
-.contact nav a.twitter .icon svg {
-    background-color: #1da1f2;
+.contact nav a.twitter .icon img {
+    display:block;
+    max-width:100%;
+    height:auto;
 }
 .contact nav a.twitter .content h1 {
     color: #1da1f2;

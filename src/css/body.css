@@ -266,8 +266,8 @@ html {
   width: 40px;
   height: 40px;
   background-color: rgba(19, 167, 212, 0.5);
-  -webkit-animation: square 10s infinite;
-  animation:         square 10s infinite; 
+  -webkit-animation: square 20s infinite;
+  animation:         square 20s infinite; 
   -webkit-transition-timing-function: linear;
   transition-timing-function: linear;
 }
@@ -345,7 +345,7 @@ html {
 }
 @keyframes square {
   0%   { transform: translateY(0); }
-  100% { transform: translateY(-3920px) rotate(600deg); }
+  100% { transform: translateY(-4320px) rotate(600deg); }
 }
 
   
@@ -409,7 +409,7 @@ html {
     }
     @keyframes square {
       0%   { transform: translateY(0); }
-      100% { transform: translateY(-6520px) rotate(600deg); }
+      100% { transform: translateY(-6920px) rotate(600deg); }
     }
 }
 .ir-arriba {
