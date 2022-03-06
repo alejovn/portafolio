@@ -59,12 +59,41 @@
     margin-left: 25px;
     margin-bottom: 0%;
 }
-
-.quien-soy {
-    font-size: 20px;
-}
 .quien-soy p{
     padding: 10px;
+    text-align: justify;
+}
+
+.script_{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+    color: rgb(1, 1, 77);
+    padding: 0px;
+    margin: 0px;;
+}
+.script_t{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+    padding-left: 30px;
+    margin: 0px;
+    color: rgb(9, 124, 218);
+}
+.script_p{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+    padding-left: 60px;
+    padding-top: 5px;
+    margin: 0px;;
+}
+.script_p span{
+    color: rgb(1, 1, 77);
+}
+
+.quien-soy {
+    font-size: 18px;
 }
 .titulo-quien-soy{
     font-size: 14px;
