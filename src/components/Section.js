@@ -265,11 +265,11 @@ const Section = (props) => {
               <span className="l-br-s">-</span>
               <section className="container-lenguajes">
                 <div id="carousel-lenguajes">
-                  <figure><img src="img/java_.png" /></figure>
-                  <figure><img src="img/javascript.png" /></figure>
-                  <figure><img src="img/vb.png" /></figure>
-                  <figure><img src="img/php.png" /></figure>
-                  <figure><img src="img/python.png" /></figure>
+                  <figure><img src="img/net.png" /></figure>
+                  <figure><img src="img/mysql.png" /></figure>
+                  <figure><img src="img/sql.png" /></figure>
+                  <figure><img src="img/android_studio.png" /></figure>
+                  <figure><img src="img/linux.png" /></figure>
                 </div>
               </section>
             </div>
