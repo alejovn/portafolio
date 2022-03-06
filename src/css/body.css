@@ -213,42 +213,42 @@ html {
   margin: 0;
 }
 #carousel-lenguajes figure:nth-child(1) {
-  background-color: rgba(19, 167, 212, 0.9);
+  background-color: rgba(156, 189, 199, 0.9);
   -webkit-box-shadow: 0 0 5px 2px gray;
   -moz-box-shadow: 0 0 5px 2px gray;
   box-shadow: 0 0 5px 2px gray;
   transform: rotateY( 0deg ) translateZ( 180px );
 }
 #carousel-lenguajes figure:nth-child(2) {
-  background-color: rgba(19, 167, 212, 0.9);
+  background-color: rgba(156, 189, 199, 0.9);
   -webkit-box-shadow: 0 0 5px 2px gray;
   -moz-box-shadow: 0 0 5px 2px gray;
   box-shadow: 0 0 5px 2px gray;
   transform: rotateY( 72deg ) translateZ( 180px );
 }
 #carousel-lenguajes figure:nth-child(3) {
-  background-color: rgba(19, 167, 212, 0.9);
+  background-color: rgba(156, 189, 199, 0.9);
   -webkit-box-shadow: 0 0 5px 2px gray;
   -moz-box-shadow: 0 0 5px 2px gray;
   box-shadow: 0 0 5px 2px gray;
   transform: rotateY( 144deg ) translateZ( 180px );
 }
 #carousel-lenguajes figure:nth-child(4) {
-  background-color: rgba(77, 206, 98, 0.9);
+  background-color: rgba(156, 189, 199, 0.9);
   -webkit-box-shadow: 0 0 5px 2px gray;
   -moz-box-shadow: 0 0 5px 2px gray;
   box-shadow: 0 0 5px 2px gray;
   transform: rotateY( 216deg ) translateZ( 180px );
 }
 #carousel-lenguajes figure:nth-child(5) {
-  background-color: rgba(19, 167, 212, 0.9);
+  background-color: rgba(156, 189, 199, 0.9);
   -webkit-box-shadow: 0 0 5px 2px gray;
   -moz-box-shadow: 0 0 5px 2px gray;
   box-shadow: 0 0 5px 2px gray;
   transform: rotateY( 288deg ) translateZ( 180px );
 }
 #carousel-lenguajes {
-  animation: rotateInY 50s infinite linear;
+  animation: rotateInY 30s infinite linear;
 }
 @keyframes rotateInY {
 0%   { transform: translateZ(-288px) rotateY(0deg);   }
