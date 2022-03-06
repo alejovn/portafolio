@@ -23,10 +23,12 @@
 
 .contactDark{
     background: linear-gradient(to top, rgb(5, 5, 5), rgb(155, 148, 148));
+    color:white;
 }
 
 .contactLight{
     background: linear-gradient(to top, rgb(208, 215, 235), rgb(255, 255, 255));
+    color:black;
 }
 
 
@@ -59,17 +61,14 @@
 }
 
 .quien-soy {
-    text-align: justify;
     font-size: 20px;
-    margin-left: 40px;
-    margin-right: 40px;
 }
 .quien-soy p{
-    padding: 30px;
+    padding: 10px;
 }
 .titulo-quien-soy{
     font-size: 14px;
-    text-shadow: 0.1rem 0.1rem 0.1rem red;
+    text-shadow: 0.1rem 0.1rem 0.1rem #155bdd;
 }
 
 .sobre-mi{
@@ -83,7 +82,7 @@
     height: 2px;
     max-width: 350px;
     padding: 0;
-    margin: 20px auto 0 auto;
+    margin: 20px auto 0 0;
 }
 
 @media screen and (max-width: 850px) {
@@ -105,15 +104,7 @@
         padding-left: 45px;
         line-height : 24px;
     }
-    .quien-soy {
-        margin-left: 15px;
-        margin-right: 15px;
-    }
-    .quien-soy p{
-        padding: 15px;
-        padding-top: 30px;
-        padding-bottom: 30px;
-    }
+
     .img-sobreMi{
         width: 350px;
     }

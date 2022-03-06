@@ -13,7 +13,7 @@ const Section = (props) => {
         <span className="l-br">-</span>
         <span className="l-br">-</span>
         <span className="l-br">-</span>
-        <h1 className="h1-title">Habilidades</h1>
+        <h1 className="h1-title">Tecnologías</h1>
         <div className="linea-habilidad"></div>
         <span className="l-br">-</span>
         <div className="row _fondo-section">

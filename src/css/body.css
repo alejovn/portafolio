@@ -99,6 +99,9 @@ html {
   background-color: #6A98F0;
   margin-left: -110px;
   border-radius: 10px;
+  -webkit-box-shadow: 0 0 5px 2px gray;
+  -moz-box-shadow: 0 0 5px 2px gray;
+  box-shadow: 0 0 5px 2px gray;
 }
 .pU-codigo{
   padding-top: 15px;

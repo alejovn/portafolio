@@ -38,7 +38,6 @@ function App() {
   const pDosCodigo = React.createRef();
   const lCodigo = React.createRef();
   const pUCodigo = React.createRef();
-  const content = React.createRef();
 
   const contacto_div = React.createRef();
 
@@ -64,8 +63,6 @@ function App() {
       pUCodigo.current.style.color = 'white';
       lCodigo.current.style.color = 'white';
       pCodigo.current.style.backgroundColor = 'white';
-      content.current.style.backgroundColor = '#303030';
-      content.current.style.color = 'white';
 
 
     } else {
@@ -89,8 +86,6 @@ function App() {
       lCodigo.current.style.color = 'black';
       codigo.current.style.borderColor = 'black';
       pCodigo.current.style.backgroundColor = 'black';
-      content.current.style.backgroundColor = 'white';
-      content.current.style.color = 'black';
     }
   });
 
@@ -105,7 +100,7 @@ function App() {
         </svg>
         <About container={container} codigo={codigo} pCodigo={pCodigo}
           pDosCodigo={pDosCodigo} lCodigo={lCodigo} pUCodigo={pUCodigo} />
-        <Sobremi contact={contact} content={content} />
+        <Sobremi contact={contact} />
         <Section classNameH={classNameH} section={section} />
         <Experiencia section4={section4} experiencia={experiencia} />
 
