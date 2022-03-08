@@ -13,11 +13,10 @@ const Sobremi = (props) => {
                 <div className="row">
                     <div className="col-5">
                         <div className="img-sobreMi">
-                            <img src="img/foto.jpg" />
+                            <img src="img/alejo.png" />
                         </div>
                     </div>
                     <div className="col-7">
-                        <span className="l-br-c">-</span>
                         <div className="titulo-quien-soy">
                             <h1>Quién soy?</h1>
                         </div>

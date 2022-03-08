@@ -116,7 +116,7 @@ const Contact = (props) => {
 
                                                 <aside>
                                                     <h1>Alejandro Valencia</h1>
-                                                    <p>Hola, soy Alejandro Valencia y soy Programador Full Stack.</p>
+                                                    <p>También me puedes contactar mediante</p>
                                                 </aside>
 
                                                 <button className={isActive ? 'active' : null} onClick={toggleClass}>
@@ -133,7 +133,7 @@ const Contact = (props) => {
                                     </main>
 
                                     <nav className={isActive ? 'active' : null}>
-                                        <a href="#" className="gmail">
+                                        <a className="gmail">
                                             <div className="icon">
                                                 <img className="" src="img/gmail.png" />
                                             </div>
@@ -142,11 +142,9 @@ const Contact = (props) => {
                                                 <h1>Email</h1>
                                                 <span>alejandrovalencia2011@gmial.com</span>
                                             </div>
-
-                                            <svg className="arrow" xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 48 48"> <g className="nc-icon-wrapper" fill="#444444"> <path d="M17.17 32.92l9.17-9.17-9.17-9.17L20 11.75l12 12-12 12z"></path> </g> </svg>
                                         </a>
 
-                                        <a href="#" className="facebook">
+                                        <a className="facebook">
                                             <div className="icon">
                                                 <img className="" src="img/whatsapp.png" />
                                             </div>
@@ -155,11 +153,9 @@ const Contact = (props) => {
                                                 <h1>WhatsApp</h1>
                                                 <span>+506 83138642</span>
                                             </div>
-
-                                            <svg className="arrow" xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 48 48"> <g className="nc-icon-wrapper" fill="#444444"> <path d="M17.17 32.92l9.17-9.17-9.17-9.17L20 11.75l12 12-12 12z"></path> </g> </svg>
                                         </a>
 
-                                        <a href="#" className="twitter">
+                                        <a className="twitter">
                                             <div className="icon">
                                                 <img className="" src="img/twitter.png" />
                                             </div>
@@ -169,7 +165,6 @@ const Contact = (props) => {
                                                 <span>@Alejand93392546</span>
                                             </div>
 
-                                            <svg className="arrow" xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 48 48"> <g className="nc-icon-wrapper" fill="#444444"> <path d="M17.17 32.92l9.17-9.17-9.17-9.17L20 11.75l12 12-12 12z"></path> </g> </svg>
                                         </a>
                                     </nav>
                                 </div>
