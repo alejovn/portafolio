@@ -8,9 +8,12 @@
     width: 300px;
     border-radius: 100%;
 }
+
 .img-sobreMi{
     margin:5px auto;
     width: 400px;
+    border-radius: 50%;
+    border: 2px solid #6A98F0;
     overflow: hidden;
 }
 .img-sobreMi img{
@@ -103,6 +106,7 @@
     width: 90%;
     margin: 0 auto;
 }
+
 
 
 .linea-c{
