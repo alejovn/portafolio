@@ -19,7 +19,7 @@ const MenuLado = (props) => {
         <div>
             <header>
                 <div ref={props.button} className="menu_bar">
-                    <a className="bt-menu" onClick={() => openMenu()}><span className={clase}></span>Menu</a>
+                    <a className="bt-menu" onClick={() => openMenu()}><span className={clase}></span>Menú</a>
                 </div>
                 <nav ref={props.nav}>
                     <ul ref={props.a}>

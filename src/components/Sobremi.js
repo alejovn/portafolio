@@ -19,7 +19,7 @@ const Sobremi = (props) => {
                     <div className="col-7">
                         <span className="l-br-c">-</span>
                         <div className="titulo-quien-soy">
-                            <h1>Quien soy?</h1>
+                            <h1>Quién soy?</h1>
                         </div>
                         <div className="linea-c"></div>
 
@@ -32,11 +32,11 @@ const Sobremi = (props) => {
                         <p className="script_t">{"}"}</p>
                         <p className="script_">{"</script>"}</p>
                         <div className="quien-soy">
-                            <p>Soy graduado bachiller de la carrera Informatica Empresarial de la Universidad de Costa Rica</p>
+                            <p>Soy graduado bachiller de la carrera Informática Empresarial de la Universidad de Costa Rica.</p>
                             <p>Soy desarrollador de software full stack,
-                                un apasionado por el desarrollo de sistemas de información tanto de escritorio, aplicaciones moviles como de aplicaciones web,
-                                me encanta encontrarme con proyectos y retos nuevos en diferentes tipos de lenguajes de programacion,
-                                tengo conocimiento sobre una variada cantidad de tecnologías informáticas (frameworks, librerías, lenguajes, ojas de estilo, bases de datos).
+                                un apasionado por el desarrollo de sistemas de información tanto de escritorio, aplicaciones móviles como de aplicaciones web,
+                                me encanta encontrarme con proyectos y retos nuevos en diferentes tipos de lenguajes de programación,
+                                tengo conocimiento sobre una variada cantidad de tecnologías informáticas (frameworks, librerías, lenguajes, hojas de estilo, bases de datos).
                             </p>
 
                         </div>

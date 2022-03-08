@@ -60,7 +60,7 @@
     margin-bottom: 0%;
 }
 .quien-soy p{
-    padding: 10px;
+    padding-top: 10px;
     text-align: justify;
 }
 
@@ -78,7 +78,7 @@
     font-weight: bold;
     padding-left: 30px;
     margin: 0px;
-    color: rgb(9, 124, 218);
+    color: rgb(0, 138, 252);
 }
 .script_p{
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
