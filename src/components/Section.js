@@ -188,11 +188,14 @@ const Section = (props) => {
               </div>
               <div className="codigo-java">
                 <ul>
-                  <li>1 <span>public class holaMundo{' {'}</span></li>
-                  <li>2 <span className="tap1">public static void main(String[] args){' {'}</span></li>
-                  <li>3 <span className="tap2">System.out.println("Hola Mundo");</span></li>
-                  <li>4 <span className="tap1">{'}'}</span></li>
-                  <li>5 <span>{'}'}</span></li>
+                  <li>1 <span>{"import { Component } from '@angular/core';"}</span></li>
+                  <li>2 <span>{"@Component({"}</span></li>
+                  <li>3 <span className="tap2">{"selector: 'app-root',"}</span></li>
+                  <li>4 <span className="tap2">{"templateUrl: './app.component.html'"}</span></li>
+                  <li>5 <span>{"})"}</span></li>
+                  <li>6 <span>{"export class AppComponent {"}</span></li>
+                  <li>7 <span className="tap2">{"title = 'Hola mundo';"}</span></li>
+                  <li>8 <span>{"}"}</span></li>
                 </ul>
               </div>
             </div>
