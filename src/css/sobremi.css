@@ -12,8 +12,10 @@
 .img-sobreMi{
     margin:5px auto;
     width: 400px;
+    height: 450px;
     border-radius: 50%;
     border: 2px solid #6A98F0;
+    mix-blend-mode: multiply;
     overflow: hidden;
 }
 .img-sobreMi img{
