@@ -5,7 +5,7 @@
 .containerDark{
   width: 100%;
   height: 600px;
-  background: linear-gradient(to bottom, rgb(5, 5, 5), rgb(155, 148, 148));
+  background: linear-gradient(to bottom, rgb(5, 5, 5), rgb(83, 82, 82));
 }
 .containerLight{
   width: 100%;
@@ -334,14 +334,13 @@ html {
   animation-duration: 40s;
   background-color: fade(white, 30%);
 }
-    
+  
 .bg-bubbles li:nth-child(10){
   left: 70%;
   width: 160px;
   height: 160px;
   animation-delay: 11s;
 }
-  
 @-webkit-keyframes square {
   0%   { transform: translateY(0); }
   100% { transform: translateY(-1000px) rotate(600deg); }
@@ -351,12 +350,16 @@ html {
   100% { transform: translateY(-4320px) rotate(600deg); }
 }
 
-  
 @media screen and (max-width: 850px) {
     [class*="col-"] {
       width: 100%;
     }
-    
+    .containerDark{
+      height: 700px;
+    }
+    .containerLight{
+      height: 700px;
+    }
     .contenedor h1 {
       font-size: 35px;
       margin-bottom: 0%;
@@ -383,19 +386,9 @@ html {
     .net{
       margin-left: -17px;
     }
-    .imagen{
-      width: 300px;
-      height: 400px;
-      float: right;
-      background-image: url(/public/img/fondo.png);
-      filter: brightness(1.1);
-      mix-blend-mode: multiply;
-      
-    }
     .lenguajes{
       margin-top: 10px;
       padding-top: 10px;
-    
     }
     .cita{
         margin-left: 20px;

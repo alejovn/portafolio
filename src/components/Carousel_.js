@@ -79,13 +79,13 @@ const Carousel_ = (props) => {
                             <h4>Punto de venta (android, java)</h4>
                             <div className="img-experiencia">
                                 <div className="img-ex2">
-                                    <img src="img/react.png" />
+                                    <img src="img/android_studio.png" />
                                 </div>
                                 <div className="img-ex2-mas">
                                     <img src="img/plus_.png" />
                                 </div>
                                 <div className="img-ex2">
-                                    <img src="img/gato.png" />
+                                    <img src="img/java.png" />
                                 </div>
                             </div>
                             <div className="descripcion-ex">
