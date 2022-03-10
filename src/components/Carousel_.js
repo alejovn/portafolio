@@ -70,6 +70,7 @@ const Carousel_ = (props) => {
                         </div>
                         <div className={"footer-experiencia_ footer" + props.experiencia}>
                             <p>Puedes probar app <a href="https://alejovn.github.io/Gato/" target="_blank">Aquí</a></p>
+                            <p>Puedes ver codigo <a href="https://github.com/alejovn/Gato" target="_blank" > Aquí</a></p>
                         </div>
                     </div>
                 </div>
@@ -96,7 +97,8 @@ const Carousel_ = (props) => {
                             </div>
                         </div>
                         <div className={"footer-experiencia_ footer" + props.experiencia}>
-                            <p>Mirar video de la app <a onClick={() => abrirModal()}>Aquí</a></p>
+                            <p>Puedes mirar un video sobre la app <button className="btn-ex"onClick={() => abrirModal()}>Aquí</button></p>
+                            <p>Puedes ver codigo <a href="https://github.com/alejovn/PuntoVenta-android-" target="_blank" > Aquí</a></p>
                         </div>
                     </div>
                 </div>

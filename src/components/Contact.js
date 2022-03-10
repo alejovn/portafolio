@@ -5,7 +5,7 @@ init('user_bFzY9PgFVWSGIkOxJVtHP');
 
 const Contact = (props) => {
 
-    const { register, handleSubmit, watch, formState: { errors } } = useForm();
+    const { register, handleSubmit, reset, watch, formState: { errors } } = useForm();
     const message = watch('message') || "";
     const messageCharsLeft = 1500 - message.length;
     const [contactNumber, setContactNumber] = useState("000000");
@@ -20,6 +20,8 @@ const Contact = (props) => {
         sendForm('service_vbm7rik', 'template_3aacv2n', '#contact-form')
             .then(function (response) {
                 console.log('SUCCESS!', response.status, response.text);
+                alert("Mensaje enviado")
+                reset();
             }, function (error) {
                 console.log('FAILED...', error);
             });
