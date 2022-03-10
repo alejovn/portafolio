@@ -279,8 +279,6 @@ const Section = (props) => {
           </div>
         </div>
         <span className="l-br">-</span>
-        <span className="l-br">-</span>
-        <span className="l-br">-</span>
       </div>
       <ModalHabilidad modalIsOpen={modalIsOpen} setIsOpen={setIsOpen} />
     </div>
