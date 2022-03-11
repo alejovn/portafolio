@@ -56,7 +56,7 @@ const Carousel_ = (props) => {
                                     <img src="img/react.png" />
                                 </div>
                                 <div className="img-ex2-mas">
-                                    <img src="img/plus_.png" />
+                                    <img src="img/plus.png" />
                                 </div>
                                 <div className="img-ex2">
                                     <img src="img/gato.png" />
