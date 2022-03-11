@@ -405,7 +405,7 @@ html {
     }
     @keyframes square {
       0%   { transform: translateY(0); }
-      100% { transform: translateY(-6920px) rotate(600deg); }
+      100% { transform: translateY(-7420px) rotate(600deg); }
     }
 }
 .ir-arriba {
