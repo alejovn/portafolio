@@ -118,7 +118,7 @@ const Contact = (props) => {
 
                                                 <aside>
                                                     <h1>Alejandro Valencia</h1>
-                                                    <p>También me puedes contactar mediante</p>
+                                                    <p>También puedes contactarme por...</p>
                                                 </aside>
 
                                                 <button className={isActive ? 'active' : null} onClick={toggleClass}>
