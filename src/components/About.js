@@ -3,8 +3,8 @@ import Cmd from "./Cmd";
 
 const About = (props) => {
     return (
-        <div className={props.container}>
-            <div className="contenedor" id="section1">
+        <div className={"container"+props.container}>
+            <div className={"contenedor"+props.container} id="section1">
                 <div className="row">
                     <div className="col-6">
                         <div className={"up " + props.estado}>

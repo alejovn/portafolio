@@ -22,7 +22,7 @@ function App() {
 
   const [count, setCount] = useState(0);
   const [classNameH, setClassNameH] = useState("habilidadDark");
-  const [container, setContainer] = useState("containerDark");
+  const [container, setContainer] = useState("Dark");
   const [contact, setContact] = useState("contactDark");
   const [section, setSection] = useState("sectionDark");
   const [section4, setSection4] = useState("section4Dark");
@@ -44,7 +44,7 @@ function App() {
   useEffect(() => {
     if (count % 2 === 0) {
       setClassNameH("habilidadDark");
-      setContainer("containerDark");
+      setContainer("Dark");
       setContact("contactDark");
       setSection("sectionDark");
       setSection4("section4Dark");
@@ -67,7 +67,7 @@ function App() {
 
     } else {
       setClassNameH("habilidadLight");
-      setContainer("containerLight");
+      setContainer("Light");
       setContact("contactLight");
       setSection("sectionLight");
       setSection4("section4Light");

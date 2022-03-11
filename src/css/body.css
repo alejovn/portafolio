@@ -47,10 +47,16 @@ html {
   .col-11 {width: 91.66%;}
   .col-12 {width: 100%;}
 
-.contenedor { 
+.contenedorDark { 
   top: 100px;
   left: 120px;
 }
+
+.contenedorLight {
+  top: 100px;
+  left: 120px;
+}
+
 .up{
   position: absolute;
   z-index: 2;
@@ -111,17 +117,31 @@ html {
   border-top-left-radius: 10px;
   border-top-right-radius: 10px;
 }
-.contenedor h1 {
+.contenedorDark h1 {
   font-size: 45px;
-  color: black;
+  color: white;
   margin-bottom: 0%;
 }
-.contenedor h2 {
+.contenedorDark h2 {
   font-size: 35px;
   color: #155bdd;
   margin-bottom: 20px;
 }
-.contenedor h1 span{
+.contenedorDark h1 span{
+  color:#155bdd;
+}
+
+.contenedorLight h1 {
+  font-size: 45px;
+  color: black;
+  margin-bottom: 0%;
+}
+.contenedorLight h2 {
+  font-size: 35px;
+  color: #155bdd;
+  margin-bottom: 20px;
+}
+.contenedorLight h1 span{
   color:#155bdd;
 }
 .btn {
