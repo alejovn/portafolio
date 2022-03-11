@@ -1,6 +1,6 @@
-const Footer = () => {
+const Footer = (props) => {
     return(
-        <footer>
+        <footer className={"footerpage"+props.experiencia}>
               <a href="https://www.facebook.com/AlejoValenciaN" target="_blank">
                 <button className="click fondo-btn-f">
                   <span className="tooltip">Facebook</span>
@@ -16,9 +16,9 @@ const Footer = () => {
                   <span className="tooltip">LinkedIn</span>
                 </button>
               </a>
-              <a href="CV_Alejandro_ValenciaNavarro.pdf" download="CV_Alejandro_ValenciaNavarro.pdf">
+              <a href="https://github.com/alejovn" target="_blank">
                 <button className="click fondo-btn-D">
-                  <span className="tooltip">Descargar CV</span>
+                  <span className="tooltip">GitHub</span>
                 </button>
               </a>
               <h3>Author: Alejandro Valencia Navarro</h3>

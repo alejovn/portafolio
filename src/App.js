@@ -118,9 +118,7 @@ function App() {
           <li></li>
           <li></li>
         </ul>
-        <Footer />
-
-
+        <Footer experiencia={experiencia} />
         <Link to="section1" smooth={true}><i><span className="ir-arriba fa fa-chevron-up"></span></i></Link>
       </div>
     </div>

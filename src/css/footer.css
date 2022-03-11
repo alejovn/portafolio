@@ -1,12 +1,17 @@
-footer {
+.footerpageDark {
     text-align: center;
     padding: 3px;
-    background-color: DarkSalmon;
+    background: linear-gradient(to bottom, rgb(83, 82, 82), rgb(5, 5, 5));
     color: white;
-    text-shadow: 0.1em 0.1em 0.2em black
+    text-shadow: 0.1em 0.1em 0.2em black;
 }
-.footer h3{
-    text-shadow: 10px 5px 5px black;
+
+.footerpageLight{
+    text-align: center;
+    padding: 3px;
+    background: linear-gradient(to top, rgb(131, 159, 235), rgb(255, 255, 255));
+    color: black;
+    text-shadow: 0.1em 0.1em 0.2em white;
 }
 
 .fondo-btn-f{
@@ -28,7 +33,7 @@ footer {
     border-radius:10px;
 }
 .fondo-btn-D{
-    background-image:url('/public/img/pdf_downlod.png');
+    background-image:url('/public/img/github.png');
     background-repeat:no-repeat;
     background-position:center;
     border-radius:10px;
@@ -45,7 +50,7 @@ footer {
 .click .tooltip {
     visibility: hidden;
     width: 120px;
-    background-color:blue;
+    background-color:rgb(113, 113, 175);
     color: #fff;
     text-align: center;
     border-radius: 6px;
@@ -68,8 +73,4 @@ footer {
   }
 .click:hover .tooltip {
     visibility: visible;
-}
-.click:not(.tooltip):hover{
-    transform: scale(1.5);
-    transition-duration: 0.7s;
 }
