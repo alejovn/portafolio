@@ -12,8 +12,8 @@ const Carousel_ = (props) => {
         infinite: true,
         autoplay: true,
         speed: 600,
-        slidesToShow: 2,
-        slidesToScroll: 2,
+        slidesToShow: 3,
+        slidesToScroll: 3,
         initialSlide: 0,
         autoplaySpeed: 10000,
         arrows: false,
@@ -69,8 +69,8 @@ const Carousel_ = (props) => {
                             </div>
                         </div>
                         <div className={"footer-experiencia_ footer" + props.experiencia}>
-                            <p>Puedes probar app <a href="https://alejovn.github.io/Gato/" target="_blank">Aquí</a></p>
-                            <p>Puedes ver codigo <a href="https://github.com/alejovn/Gato" target="_blank" > Aquí</a></p>
+                            <p>Puedes probar app <button className="btn-ex"><a href="https://alejovn.github.io/Gato/" target="_blank">Aquí</a></button></p>
+                            <p>Puedes ver codigo en github <a className="btn-ex" href="https://github.com/alejovn/Gato" target="_blank" > Aquí</a></p>
                         </div>
                     </div>
                 </div>
@@ -97,8 +97,8 @@ const Carousel_ = (props) => {
                             </div>
                         </div>
                         <div className={"footer-experiencia_ footer" + props.experiencia}>
-                            <p>Puedes mirar un video sobre la app <button className="btn-ex"onClick={() => abrirModal()}>Aquí</button></p>
-                            <p>Puedes ver codigo <a href="https://github.com/alejovn/PuntoVenta-android-" target="_blank" > Aquí</a></p>
+                            <p>Video sobre la app <button className="btn-ex" onClick={() => abrirModal()}>Aquí</button></p>
+                            <p>Puedes ver codigo en github <a className="btn-ex" href="https://github.com/alejovn/PuntoVenta-android-" target="_blank" > Aquí</a></p>
                         </div>
                     </div>
                 </div>
