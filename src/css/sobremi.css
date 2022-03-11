@@ -101,7 +101,7 @@
     font-size: 18px;
 }
 .titulo-quien-soy{
-    font-size: 14px;
+    font-size: 12px;
 }
 
 .sobre-mi{
@@ -116,7 +116,7 @@
     height: 2px;
     max-width: 350px;
     padding: 0;
-    margin: 20px auto 0 0;
+    margin: 5px auto 0 0;
 }
 
 @media screen and (max-width: 850px) {
