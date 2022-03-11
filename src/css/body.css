@@ -124,11 +124,11 @@ html {
 }
 .contenedorDark h2 {
   font-size: 35px;
-  color: #8db1f3;
+  color: #6A98F0;
   margin-bottom: 20px;
 }
 .contenedorDark h1 span{
-  color:#8db1f3;
+  color:#6A98F0;
 }
 
 .contenedorLight h1 {
@@ -380,17 +380,21 @@ html {
     .containerLight{
       height: 1000px;
     }
-    .contenedor h1 {
+    .contenedorDark h1 {
       font-size: 35px;
       margin-bottom: 0%;
     }
-    .contenedor h2 {
+    .contenedorDark h2 {
       font-size: 25px;
-      color: #155bdd;
       margin-top: 0%;
     }
-    .contenedor h1 span{
-      color: #155bdd;
+    .contenedorLight h1 {
+      font-size: 35px;
+      margin-bottom: 0%;
+    }
+    .contenedorLight h2 {
+      font-size: 25px;
+      margin-top: 0%;
     }
     .up{
       position: relative;
