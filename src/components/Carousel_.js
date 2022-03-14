@@ -105,7 +105,7 @@ const Carousel_ = (props) => {
                 <div>
                     <div className={"experiencia_ experiencia" + props.color}>
                         <div className="ex-content">
-                            <h4>Tic Tac Toe con React</h4>
+                            <h4>Control Estudiantes con VB.net</h4>
                             <section className="container-ex">
                                 <div id="carousel-ex">
                                     <figure><img src="img/diseño.jpg" /></figure>
@@ -116,8 +116,8 @@ const Carousel_ = (props) => {
                                 </div>
                             </section>
                             <div className="descripcion-ex">
-                                <p>Juego Tic Tac Toe ó Gato, Desarrolado en react, se puede jugar persona vs persona,
-                                    o persona vs maquina (IA)
+                                <p>Se desarrolló una aplicación modo formulario para almacenar y controlar información de los estudiantes
+                                    del Colegio, dicho sistema fue desarrollado en VB.net y como gestor de base de datos se utilizó MySQL.
                                 </p>
                             </div>
                         </div>
