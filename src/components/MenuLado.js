@@ -18,11 +18,11 @@ const MenuLado = (props) => {
     return (
         <div>
             <header>
-                <div ref={props.button} className="menu_bar">
+                <div className={"menu_bar menu_bar"+props.color}>
                     <a className="bt-menu" onClick={() => openMenu()}><span className={clase}></span>Menú</a>
                 </div>
                 <nav ref={props.nav}>
-                    <ul ref={props.a}>
+                    <ul className={"a"+props.color}>
                         <label className="switch">
                             <input type="checkbox" className="switch-input" onClick={() => props.setCount(props.count + 1)} />
                             <span className="switch-label" data-on="DARK" data-off="LIGHT"></span>

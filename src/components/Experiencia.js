@@ -4,7 +4,7 @@ import Carousel_ from './Carousel_'
 const Experiencia = (props) => {
 
     return (
-        <div className={props.section4}>
+        <div className={"section4"+props.color}>
             <div id="section4">
                 <span className="l-br">-</span>
                 <span className="l-br">-</span>
@@ -13,7 +13,7 @@ const Experiencia = (props) => {
                 <h1 className="h1-title">Proyectos personales</h1>
                 <div className="linea-habilidad"></div>
                 <span className="l-br">-</span>
-                <Carousel_ experiencia={props.experiencia}/>
+                <Carousel_ color={props.color}/>
             </div>
             <span className="l-br">-</span>
             <span className="l-br">-</span>

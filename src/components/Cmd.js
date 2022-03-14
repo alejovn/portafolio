@@ -41,7 +41,7 @@ class Cmd extends Component {
 
   render() {
     return (
-        <span ref={this.props.pDosCodigo}>
+        <span>
             {this.state.imagenes[this.state.indice_imagen].title}
         </span>
     );

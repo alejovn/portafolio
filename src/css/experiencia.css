@@ -12,12 +12,12 @@
 }
 
 .section4Dark{
-  background: linear-gradient(to top, rgb(5, 5, 5), rgb(155, 148, 148));
+  background: linear-gradient(to bottom, rgb(34, 33, 33), rgb(104, 104, 104));
   color: white;
 }
 
 .section4Light{
-  background: linear-gradient(to top, rgb(208, 215, 235), rgb(255, 255, 255));
+  background: linear-gradient(to bottom, rgb(188, 199, 233), rgb(255, 255, 255));
   color: black;
 }
 

@@ -5,12 +5,49 @@
 .containerDark{
   width: 100%;
   height: 600px;
-  background: linear-gradient(to bottom, rgb(5, 5, 5), rgb(155, 148, 148));
+  background: linear-gradient(to top, rgb(34, 33, 33), rgb(104, 104, 104));
 }
 .containerLight{
   width: 100%;
   height: 600px;
-  background: linear-gradient(to bottom, rgb(208, 215, 235), rgb(255, 255, 255));
+  background: linear-gradient(to top, rgb(188, 199, 233), rgb(255, 255, 255));
+}
+
+.codigoDark{
+  background-color: black;
+  color: black;
+}
+.codigoLight{
+  background-color: white;
+  color: white;
+}
+
+.p-codigoDark{
+  background-color: white;
+}
+.p-codigoLight{
+  background-color: black;
+}
+
+.p-codigo-tDark{
+  color: white;
+}
+.p-codigo-tLight{
+  color: black;
+}
+
+.lCodigoDark{
+  color: white;
+}
+.lCodigoLight{
+  color: black;
+}
+
+.pU-codigoDark{
+  color: white;
+}
+.pU-codigoLight{
+  color: black;
 }
   
 .row::after {
@@ -75,7 +112,6 @@ html {
   margin-left: 110px;
   width: 450px;
   height: 320px;
-  background-color: #201f1f;
   border-radius: 10px;
   -webkit-box-shadow: 0 0 5px 2px gray;
   -moz-box-shadow: 0 0 5px 2px gray;

@@ -1,7 +1,7 @@
 
 const Sobremi = (props) => {
     return (
-        <div className={props.contact}>
+        <div className={"contact"+props.color}>
             <div id="section2" className="sobre-mi">
                 <span className="l-br">-</span>
                 <span className="l-br">-</span>

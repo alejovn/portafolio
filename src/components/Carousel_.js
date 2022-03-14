@@ -48,7 +48,7 @@ const Carousel_ = (props) => {
         <div className="container-experiencia">
             <Slider {...settings}>
                 <div>
-                    <div className={"experiencia_ experiencia" + props.experiencia}>
+                    <div className={"experiencia_ experiencia" + props.color}>
                         <div className="ex-content">
                             <h4>Tic Tac Toe con React</h4>
                             <div className="img-experiencia">
@@ -68,14 +68,14 @@ const Carousel_ = (props) => {
                                 </p>
                             </div>
                         </div>
-                        <div className={"footer-experiencia_ footer" + props.experiencia}>
+                        <div className={"footer-experiencia_ footer" + props.color}>
                             <p>Puedes probar app <button className="btn-ex"><a href="https://alejovn.github.io/Gato/" target="_blank">Aquí</a></button></p>
                             <p>Puedes ver codigo en github <a className="btn-ex" href="https://github.com/alejovn/Gato" target="_blank" > Aquí</a></p>
                         </div>
                     </div>
                 </div>
                 <div>
-                    <div className={"experiencia_ experiencia" + props.experiencia}>
+                    <div className={"experiencia_ experiencia" + props.color}>
                     <div className="ex-content">
                             <h4>Punto de venta (android, java)</h4>
                             <div className="img-experiencia">
@@ -96,14 +96,14 @@ const Carousel_ = (props) => {
                                 </p>
                             </div>
                         </div>
-                        <div className={"footer-experiencia_ footer" + props.experiencia}>
+                        <div className={"footer-experiencia_ footer" + props.color}>
                             <p>Video sobre la app <button className="btn-ex" onClick={() => abrirModal()}>Aquí</button></p>
                             <p>Puedes ver codigo en github <a className="btn-ex" href="https://github.com/alejovn/PuntoVenta-android-" target="_blank" > Aquí</a></p>
                         </div>
                     </div>
                 </div>
                 <div>
-                    <div className={"experiencia_ experiencia" + props.experiencia}>
+                    <div className={"experiencia_ experiencia" + props.color}>
                     <div className="ex-content">
                             <h4>Tic Tac Toe con React</h4>
                             <div className="img-experiencia">
@@ -123,13 +123,13 @@ const Carousel_ = (props) => {
                                 </p>
                             </div>
                         </div>
-                        <div className={"footer-experiencia_ footer" + props.experiencia}>
+                        <div className={"footer-experiencia_ footer" + props.color}>
                             <a href="https://alejovn.github.io/Gato/" target="_blank">Tic tac toe</a>
                         </div>
                     </div>
                 </div>
                 <div>
-                    <div className={"experiencia_ experiencia" + props.experiencia}>
+                    <div className={"experiencia_ experiencia" + props.color}>
                     <div className="ex-content">
                             <h4>Tic Tac Toe con React</h4>
                             <div className="img-experiencia">
@@ -149,13 +149,13 @@ const Carousel_ = (props) => {
                                 </p>
                             </div>
                         </div>
-                        <div className={"footer-experiencia_ footer" + props.experiencia}>
+                        <div className={"footer-experiencia_ footer" + props.color}>
                             <a href="https://alejovn.github.io/Gato/" target="_blank">Tic tac toe</a>
                         </div>
                     </div>
                 </div>
                 <div>
-                    <div className={"experiencia_ experiencia" + props.experiencia}>
+                    <div className={"experiencia_ experiencia" + props.color}>
                     <div className="ex-content">
                             <h4>Tic Tac Toe con React</h4>
                             <div className="img-experiencia">
@@ -175,13 +175,13 @@ const Carousel_ = (props) => {
                                 </p>
                             </div>
                         </div>
-                        <div className={"footer-experiencia_ footer" + props.experiencia}>
+                        <div className={"footer-experiencia_ footer" + props.color}>
                             <a href="https://alejovn.github.io/Gato/" target="_blank">Tic tac toe</a>
                         </div>
                     </div>
                 </div>
                 <div>
-                    <div className={"experiencia_ experiencia" + props.experiencia}>
+                    <div className={"experiencia_ experiencia" + props.color}>
                     <div className="ex-content">
                             <h4>Tic Tac Toe con React</h4>
                             <div className="img-experiencia">
@@ -201,13 +201,13 @@ const Carousel_ = (props) => {
                                 </p>
                             </div>
                         </div>
-                        <div className={"footer-experiencia_ footer" + props.experiencia}>
+                        <div className={"footer-experiencia_ footer" + props.color}>
                             <a href="https://alejovn.github.io/Gato/" target="_blank">Tic tac toe</a>
                         </div>
                     </div>
                 </div>
                 <div>
-                    <div className={"experiencia_ experiencia" + props.experiencia}>
+                    <div className={"experiencia_ experiencia" + props.color}>
                     <div className="ex-content">
                             <h4>Tic Tac Toe con React</h4>
                             <div className="img-experiencia">
@@ -227,13 +227,13 @@ const Carousel_ = (props) => {
                                 </p>
                             </div>
                         </div>
-                        <div className={"footer-experiencia_ footer" + props.experiencia}>
+                        <div className={"footer-experiencia_ footer" + props.color}>
                             <a href="https://alejovn.github.io/Gato/" target="_blank">Tic tac toe</a>
                         </div>
                     </div>
                 </div>
                 <div>
-                    <div className={"experiencia_ experiencia" + props.experiencia}>
+                    <div className={"experiencia_ experiencia" + props.color}>
                     <div className="ex-content">
                             <h4>Tic Tac Toe con React</h4>
                             <div className="img-experiencia">
@@ -253,7 +253,7 @@ const Carousel_ = (props) => {
                                 </p>
                             </div>
                         </div>
-                        <div className={"footer-experiencia_ footer" + props.experiencia}>
+                        <div className={"footer-experiencia_ footer" + props.color}>
                             <a href="https://alejovn.github.io/Gato/" target="_blank">Tic tac toe</a>
                         </div>
                     </div>

@@ -17,6 +17,16 @@ header nav{
     display: none;
 }
 
+.menu_barDark{
+  background-color: #383838;
+  color: white;
+}
+
+.menu_barLight{
+  background-color: white;
+  color: black;
+}
+
 header nav ul{
     overflow: hidden;
     list-style: none;
@@ -38,6 +48,21 @@ header nav ul li span{
 header nav ul li a:hover{
     background:#6A98F0;
     cursor: pointer;
+}
+
+.navDark{
+  background-color: black;
+}
+.navLight{
+  background-color: white;
+}
+
+.aDark{
+  color: white;
+}
+
+.aLight{
+  color: black;
 }
 
 .switch {

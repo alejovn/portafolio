@@ -3,11 +3,11 @@ import Cmd from "./Cmd";
 
 const About = (props) => {
     return (
-        <div className={"container"+props.container}>
-            <div className={"contenedor"+props.container} id="section1">
+        <div className={"container"+props.color}>
+            <div className={"contenedor"+props.color} id="section1">
                 <div className="row">
                     <div className="col-6">
-                        <div className={"up " + props.estado}>
+                        <div className="up ">
                             <img className="centrado" src="img/foto.jpg" />
                             <span className="l-br-s">-</span>
                             <h1 className="h1-titulo"><span>Hola,</span> Soy Alejandro.</h1>
@@ -18,13 +18,13 @@ const About = (props) => {
                         </div>
                     </div>
                     <div className="col-6 img">
-                        <div ref={props.codigo} className="codigo">
-                            <p ref={props.pCodigo} className="p-codigo"><span className="fa fa-terminal"></span> simbolo del sistema</p>
-                            <p ref={props.pDosCodigo} className="p-codigo"> C:\Users\Alejandro{'>'}
-                                <Cmd pDosCodigo={props.pDosCodigo} />
+                        <div className={"codigo codigo"+props.color}>
+                            <p className={"p-codigo p-codigo"+props.color}><span className="fa fa-terminal"></span> simbolo del sistema</p>
+                            <p className={"p-codigo p-codigo-t"+props.color}> C:\Users\Alejandro{'>'}
+                                <Cmd />
                             </p>
                             <div className="net">
-                                <ul ref={props.lCodigo} className="lCodigo">
+                                <ul className={"lCodigo lCodigo"+props.color}>
                                     <li>1 <span>public class miProyecto{' {'}</span></li>
                                     <li>2 <span className="tap1">public static void main(String[] args){' {'}</span></li>
                                     <li>3 <span className="tap2">String nombre = "Alejandro";</span></li>
@@ -33,7 +33,7 @@ const About = (props) => {
                                     <li>6 <span>{'}'}</span></li>
                                 </ul>
                             </div>
-                            <p ref={props.pUCodigo} className="pU-codigo"> Hola soy Alejandro
+                            <p className={"pU-codigo pU-codigo"+props.color}> Hola soy Alejandro
                             </p>
                         </div>
                     </div>

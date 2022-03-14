@@ -1,7 +1,7 @@
 .footerpageDark {
     text-align: center;
     padding: 3px;
-    background: linear-gradient(to bottom, rgb(83, 82, 82), rgb(5, 5, 5));
+    background: linear-gradient(to bottom, rgb(34, 33, 33), rgb(2, 2, 2));
     color: white;
     text-shadow: 0.1em 0.1em 0.2em black;
 }
@@ -9,7 +9,7 @@
 .footerpageLight{
     text-align: center;
     padding: 3px;
-    background: linear-gradient(to top, rgb(131, 159, 235), rgb(255, 255, 255));
+    background: linear-gradient(to bottom, rgb(188, 199, 233), rgb(60, 114, 196));
     color: black;
     text-shadow: 0.1em 0.1em 0.2em white;
 }

@@ -1,6 +1,6 @@
 const Footer = (props) => {
     return(
-        <footer className={"footerpage"+props.experiencia}>
+        <footer className={"footerpage"+props.color}>
               <a href="https://www.facebook.com/AlejoValenciaN" target="_blank">
                 <button className="click fondo-btn-f">
                   <span className="tooltip">Facebook</span>

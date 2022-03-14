@@ -7,7 +7,7 @@ const Section = (props) => {
     setIsOpen(true);
   };
   return (
-    <div className={props.section}>
+    <div className={"section"+props.color}>
       <div id="section3" className="habilidad">
         <span className="l-br">-</span>
         <span className="l-br">-</span>
@@ -18,7 +18,7 @@ const Section = (props) => {
         <span className="l-br">-</span>
         <div className="row _fondo-section">
           <div className="col-4">
-            <div className={"habilidades " + props.classNameH}>
+            <div className={"habilidades habilidad"+props.color}>
               <div className="header-habilidad">
                 <span className="l-br-s">-</span>
                 <div className="img-habilidades">
@@ -47,7 +47,7 @@ const Section = (props) => {
             </div>
           </div>
           <div className="col-4">
-            <div className={"habilidades " + props.classNameH}>
+            <div className={"habilidades habilidad"+props.color}>
               <div className="header-habilidad">
                 <span className="l-br-s">-</span>
                 <div className="img-habilidades">
@@ -76,7 +76,7 @@ const Section = (props) => {
             </div>
           </div>
           <div className="col-4">
-            <div className={"habilidades " + props.classNameH}>
+            <div className={"habilidades habilidad"+props.color}>
               <div className="header-habilidad">
                 <span className="l-br-s">-</span>
                 <div className="img-habilidades">
@@ -109,7 +109,7 @@ const Section = (props) => {
         </div>
         <div className="row _fondo-section">
           <div className="col-4">
-            <div className={"habilidades " + props.classNameH}>
+            <div className={"habilidades habilidad"+props.color}>
               <div className="header-habilidad">
                 <span className="l-br-s">-</span>
                 <div className="img-habilidades">
@@ -140,7 +140,7 @@ const Section = (props) => {
             </div>
           </div>
           <div className="col-4">
-            <div className={"habilidades " + props.classNameH}>
+            <div className={"habilidades habilidad"+props.color}>
               <div className="header-habilidad">
                 <span className="l-br-s">-</span>
                 <div className="img-habilidades">
@@ -171,7 +171,7 @@ const Section = (props) => {
             </div>
           </div>
           <div className="col-4">
-            <div className={"habilidades " + props.classNameH}>
+            <div className={"habilidades habilidad"+props.color}>
             <div className="header-habilidad">
                 <span className="l-br-s">-</span>
                 <div className="img-habilidades">
@@ -204,7 +204,7 @@ const Section = (props) => {
         </div>
         <div className="row _fondo-section">
           <div className="col-4">
-            <div className={"habilidades " + props.classNameH}>
+            <div className={"habilidades habilidad"+props.color}>
             <div className="header-habilidad">
                 <span className="l-br-s">-</span>
                 <div className="img-habilidades">
@@ -236,7 +236,7 @@ const Section = (props) => {
           </div>
 
           <div className="col-4">
-            <div className={"habilidades " + props.classNameH}>
+            <div className={"habilidades habilidad"+props.color}>
             <div className="header-habilidad">
                 <span className="l-br-s">-</span>
                 <div className="img-habilidades">
@@ -260,7 +260,7 @@ const Section = (props) => {
             </div>
           </div>
           <div className="col-4">
-            <div className={"habilidades " + props.classNameH}>
+            <div className={"habilidades habilidad"+props.color}>
               <span className="l-br-s">-</span>
               <div className="otra-habilidad">
                 <h1>Otras Habilidades</h1>

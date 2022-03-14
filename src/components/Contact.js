@@ -33,7 +33,7 @@ const Contact = (props) => {
     };
 
     return (
-        <div className={props.section5} id="section5">
+        <div className={"section5"+props.color} id="section5">
             <div className="section5-fondo">
                 <span className="l-br">-</span>
                 <span className="l-br">-</span>
@@ -42,7 +42,7 @@ const Contact = (props) => {
                 <h1 className="h1-title">Contacto</h1>
                 <div className="linea-habilidad"></div>
                 <span className="l-br">-</span>
-                <div ref={props.contacto_div} className="contacto-div">
+                <div className={"contacto-div contacto-div"+props.color}>
                     <div className="row">
                         <div className="col-6">
                             <div className="contact-area">
