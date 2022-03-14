@@ -117,7 +117,7 @@ const Contact = (props) => {
                                                 <img src="img/foto.jpg" alt="Profile Image" />
 
                                                 <aside>
-                                                    <h1>Alejandro Valencia</h1>
+                                                    <h1>Alejandro Valencia Navarro</h1>
                                                     <p>También puedes contactarme por...</p>
                                                 </aside>
 

@@ -124,7 +124,7 @@ div[role='alert'] {
 .contact main section {
     margin-top: 50px;
     float: left;
-    width: 100%;
+    width: 95%;
     border-radius: 10px;
     -webkit-box-shadow: 0 0 5px 2px gray;
     -moz-box-shadow: 0 0 5px 2px gray;
@@ -285,7 +285,7 @@ div[role='alert'] {
 }
 .contact nav {
     float: left;
-    width: 100%;
+    width: 95%;
     overflow: hidden;
     max-height: 0px;
     -webkit-transition: all 0.5s;
@@ -324,10 +324,10 @@ div[role='alert'] {
 .contact nav a {
     float: left;
     width: 100%;
-    margin-top: 18px;
+    margin-top: 10px;
     background-color: #fff;
     padding: 18px 20px;
-    border-radius: 5px;
+    border-radius: 10px;
     text-decoration: none;
     -webkit-transition: all 0.3s;
     -moz-transition: all 0.3s;
