@@ -286,10 +286,9 @@
   }
 
   #carousel-ex figure img{
-      border: 1px solid black;
     display:block;
     max-width:100%;
-    height:auto;
+    height:100%;
   }
   #carousel-ex figure:nth-child(1) {
     background-color: rgba(156, 189, 199, 0.9);
