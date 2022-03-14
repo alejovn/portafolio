@@ -244,7 +244,17 @@
     width: 20px;
  }
 
-
+ .modalVideo{
+    position: absolute;
+    width: 600px;
+    height: 400px;
+    top: 50%;
+    left: 50%;
+    right: auto;
+    bottom: auto;
+    margin-Right: -50%;
+    transform: translate(-50%, -50%);
+ }
 
  @media screen and (max-width: 768px){
     .codigo-java{
@@ -259,6 +269,10 @@
     .h1-title{
         font-size: 26px;
     }
+    .modalVideo{
+        width: 370px;
+        height: 250px;
+     }
  }
   
  

@@ -109,8 +109,8 @@ const Carousel_ = (props) => {
                             <section className="container-ex">
                                 <div id="carousel-ex">
                                     <figure><img src="img/diseño.jpg" /></figure>
-                                    <figure><img src="img/inicio.png" /></figure>
-                                    <figure><img src="img/estudiante.png" /></figure>
+                                    <figure><img src="img/inicio.jpg" /></figure>
+                                    <figure><img src="img/estudiante.jpg" /></figure>
                                     <figure><img src="img/android_studio.png" /></figure>
                                     <figure><img src="img/linux.png" /></figure>
                                 </div>
