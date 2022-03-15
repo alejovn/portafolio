@@ -407,6 +407,12 @@ div[role='alert'] {
         margin: 0;
     }
     .contact main section {
+        width: 100%;
+    }
+    .contact nav {
+        width: 100%;
+    }
+    .contact main section {
         margin-top: 20px;
         margin-left: 0px;
     }
