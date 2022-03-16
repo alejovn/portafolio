@@ -183,10 +183,10 @@ html {
 .btn {
   background-color: #6A98F0;
   color: white;
-  padding-top: 15px;
-  padding-bottom: 15px;
-  padding-left: 115px;
-  padding-right: 115px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
   text-align: center;
   text-decoration: none;
   display: inline-block;
@@ -195,6 +195,9 @@ html {
   border-radius: 10px;
   border: 1px solid;
   border-color: blue;
+}
+.btn-curriculo i{
+  margin-left: 10px;
 }
 .btn-curriculo:hover {
   color: #fff;

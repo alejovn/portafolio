@@ -122,7 +122,8 @@ const Carousel_ = (props) => {
                             </div>
                         </div>
                         <div className={"footer-experiencia_ footer" + props.color}>
-                            <a href="https://alejovn.github.io/Gato/" target="_blank">Tic tac toe</a>
+                        <span className="l-br">-</span>
+                        <p>Puedes ver codigo en github <a className="btn-ex" href="https://github.com/alejovn/PuntoVenta-android-" target="_blank" > Aquí</a></p>
                         </div>
                     </div>
                 </div>
