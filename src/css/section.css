@@ -20,14 +20,6 @@
     color: black;
 }
 
-.habilidadDark .btn-div p{
-    color: white;
-}
-.habilidadLight .btn-div p{
-    color: black;
-
-}
-
 .h1-title{
     color:#155bdd;
     font-size: 30px;
@@ -57,18 +49,19 @@
 }
 
 .header-habilidad h1{
+    margin-top: -55px;
     text-align: left;
-    width: 60%;
-    margin-left: 35%;
-    padding: 7px
+    margin-left: 50%;
+    font-size: 20px;
+    padding: 7px;
 }
 
 .img-habilidades{
     border: 2px solid #6A98F0;
-    margin-left:30px;
+    margin-left:60px;
     position: relative;
-    width: 100px;
-    height: 100px;
+    width: 120px;
+    height: 120px;
     border-radius: 50%;
     padding: 5px 5px 5px 5px;
     overflow:hidden;
@@ -88,11 +81,12 @@
     width: 90%;
     height: 160px;
     margin: 20px auto;
+    margin-top: 30px;
     padding: 10px;
 }
 .codigo-java ul{
     list-style: none;
-    font-size: 13px;
+    font-size: 14px;
 }
 .codigo-java ul span{
     font-size: 13px;
@@ -145,9 +139,7 @@
 }
 
 .btn-div{
-    width: 50%;
-    margin-left: 40%;
-    margin-top: -75px
+    width: 60%;
 }
 .ver-mas {
     margin: auto;
@@ -183,9 +175,10 @@
  .ver-mas p {
     font-family: 'Mukta', sans-serif;
     position: absolute;
-    top: calc(50% - 8px);
-    left: calc(50% - 13.5px);
+    top: calc(50% - 12px);
+    left: calc(50% - 18.5px);
     transition: all 0.45s cubic-bezier(0.65, 0, 0.076, 1);
+
  }
   
  .ver-mas div span::before {
@@ -261,11 +254,9 @@
         width: 90%;
     }
     .header-habilidad h1{
-        margin-left: 35%;
+        margin-left: 55%;
     }
-    .btn-div{
-        margin-left: 40%;
-    }
+    
     .h1-title{
         font-size: 26px;
     }

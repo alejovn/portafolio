@@ -69,8 +69,22 @@ const Carousel_ = (props) => {
                             </div>
                         </div>
                         <div className={"footer-experiencia_ footer" + props.color}>
-                            <p>Puedes probar app <button className="btn-ex"><a href="https://alejovn.github.io/Gato/" target="_blank">Aquí</a></button></p>
-                            <p>Puedes ver codigo en github <a className="btn-ex" href="https://github.com/alejovn/Gato" target="_blank" > Aquí</a></p>
+                            <div className="btn-div">
+                                <a href="https://alejovn.github.io/Gato/" class="ver-mas" target="_blank">
+                                    <div>
+                                        <span></span>
+                                    </div>
+                                    <p><i class="fa fa-link" aria-hidden="true"></i> Visitar</p>
+                                </a>
+                            </div>
+                            <div className="btn-div">
+                                <a href="https://github.com/alejovn/Gato" class="ver-mas" target="_blank">
+                                    <div>
+                                        <span></span>
+                                    </div>
+                                    <p><i class="fa fa-github" aria-hidden="true"></i> Ver código</p>
+                                </a>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -97,8 +111,22 @@ const Carousel_ = (props) => {
                             </div>
                         </div>
                         <div className={"footer-experiencia_ footer" + props.color}>
-                            <p>Video sobre la app <button className="btn-ex" onClick={() => abrirModal()}>Aquí</button></p>
-                            <p>Puedes ver codigo en github <a className="btn-ex" href="https://github.com/alejovn/PuntoVenta-android-" target="_blank" > Aquí</a></p>
+                            <div className="btn-div">
+                                <a onClick={() => abrirModal()} class="ver-mas">
+                                    <div>
+                                        <span></span>
+                                    </div>
+                                    <p><i class="fa fa-youtube" aria-hidden="true"></i> Ver video</p>
+                                </a>
+                            </div>
+                            <div className="btn-div">
+                                <a href="https://github.com/alejovn/PuntoVenta-android-" class="ver-mas" target="_blank">
+                                    <div>
+                                        <span></span>
+                                    </div>
+                                    <p><i class="fa fa-github" aria-hidden="true"></i> Ver código</p>
+                                </a>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -122,8 +150,14 @@ const Carousel_ = (props) => {
                             </div>
                         </div>
                         <div className={"footer-experiencia_ footer" + props.color}>
-                        <span className="l-br">-</span>
-                        <p>Puedes ver codigo en github <a className="btn-ex" href="https://github.com/alejovn/PuntoVenta-android-" target="_blank" > Aquí</a></p>
+                            <div className="btn-div">
+                                <a href="https://github.com/alejovn/PuntoVenta-android-" class="ver-mas" target="_blank">
+                                    <div>
+                                        <span></span>
+                                    </div>
+                                    <p><i class="fa fa-github" aria-hidden="true"></i> Ver código</p>
+                                </a>
+                            </div>
                         </div>
                     </div>
                 </div>

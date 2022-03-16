@@ -24,14 +24,6 @@ const Section = (props) => {
                 <div className="img-habilidades">
                   <img className="" src="img/java.png" />
                 </div>
-                <div className="btn-div">
-                  <a onClick={() => abrirModal()} class="ver-mas">
-                    <div>
-                      <span></span>
-                    </div>
-                    <p>Ver más</p>
-                  </a>
-                </div>
                 <h1>Java</h1>
               </div>
               <div className="codigo-java">
@@ -53,14 +45,6 @@ const Section = (props) => {
                 <div className="img-habilidades">
                   <img className="" src="img/vb.png" />
                 </div>
-                <div className="btn-div">
-                  <a onClick={() => abrirModal()} class="ver-mas">
-                    <div>
-                      <span></span>
-                    </div>
-                    <p>Ver más</p>
-                  </a>
-                </div>
                 <h1>VB.net</h1>
               </div>
               <div className="codigo-java">
@@ -81,14 +65,6 @@ const Section = (props) => {
                 <span className="l-br-s">-</span>
                 <div className="img-habilidades">
                   <img className="" src="img/php.png" />
-                </div>
-                <div className="btn-div">
-                  <a onClick={() => abrirModal()} class="ver-mas">
-                    <div>
-                      <span></span>
-                    </div>
-                    <p>Ver más</p>
-                  </a>
                 </div>
                 <h1>PHP</h1>
               </div>
@@ -115,14 +91,6 @@ const Section = (props) => {
                 <div className="img-habilidades">
                   <img className="" src="img/javascript.png" />
                 </div>
-                <div className="btn-div">
-                  <a onClick={() => abrirModal()} class="ver-mas">
-                    <div>
-                      <span></span>
-                    </div>
-                    <p>Ver más</p>
-                  </a>
-                </div>
                 <h1>JavaScript</h1>
               </div>
               <div className="codigo-java">
@@ -146,14 +114,6 @@ const Section = (props) => {
                 <div className="img-habilidades">
                   <img className="" src="img/bootstrap.png" />
                 </div>
-                <div className="btn-div">
-                  <a onClick={() => abrirModal()} class="ver-mas">
-                    <div>
-                      <span></span>
-                    </div>
-                    <p>Ver más</p>
-                  </a>
-                </div>
                 <h1>Bootstrap</h1>
               </div>
               <div className="codigo-java">
@@ -176,14 +136,6 @@ const Section = (props) => {
                 <span className="l-br-s">-</span>
                 <div className="img-habilidades">
                   <img className="" src="img/angular.png" />
-                </div>
-                <div className="btn-div">
-                  <a onClick={() => abrirModal()} class="ver-mas">
-                    <div>
-                      <span></span>
-                    </div>
-                    <p>Ver más</p>
-                  </a>
                 </div>
                 <h1>Angular</h1>
               </div>
@@ -210,14 +162,6 @@ const Section = (props) => {
                 <div className="img-habilidades">
                   <img src="img/react.png" />
                 </div>
-                <div className="btn-div">
-                  <a onClick={() => abrirModal()} class="ver-mas">
-                    <div>
-                      <span></span>
-                    </div>
-                    <p>Ver más</p>
-                  </a>
-                </div>
                 <h1>React</h1>
               </div>
               <div className="codigo-java">
@@ -241,14 +185,6 @@ const Section = (props) => {
                 <span className="l-br-s">-</span>
                 <div className="img-habilidades">
                   <img className="" src="img/python.png" />
-                </div>
-                <div className="btn-div">
-                  <a onClick={() => abrirModal()} class="ver-mas">
-                    <div>
-                      <span></span>
-                    </div>
-                    <p>Ver más</p>
-                  </a>
                 </div>
                 <h1>Python</h1>
               </div>
