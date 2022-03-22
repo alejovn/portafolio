@@ -11,15 +11,6 @@
     
 }
 
-.derecha{
-    transition-duration: 620ms;
-    transform: rotateZ(40deg);
-}
-.izquierda{
-    transition-duration: 620ms;
-    transform: rotateZ(-40deg);
-}
-
 .img-sobreMi{
     margin:5px auto;
     width: 400px;

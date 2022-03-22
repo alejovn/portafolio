@@ -1,28 +1,14 @@
 import Slide from "./Slide";
 import Cmd from "./Cmd";
-import React, {useState, useEffect} from 'react'
 
 const About = (props) => {
-    const [count, setCount] = useState(0);
-    const [giro, setGiro] = useState("derecha");
-
-    useEffect(() => {
-        setInterval(() => {
-            if(count%2 === 0){
-                setGiro("derecha")
-            }else{
-                setGiro("izquierda")
-            }
-            setCount(count+1)
-        }, 1000);
-      }, [setGiro]);
     return (
         <div className={"container"+props.color}>
             <div className={"contenedor"+props.color} id="section1">
                 <div className="row">
                     <div className="col-6">
                         <div className="up ">
-                            <img className={"centrado "+giro} src="img/foto.jpg" />
+                            <img className={"centrado"} src="img/foto.jpg" />
                             <span className="l-br-s">-</span>
                             <h1 className="h1-titulo"><span>Hola,</span> Soy Alejandro.</h1>
                             <Slide />
