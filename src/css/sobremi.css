@@ -7,6 +7,17 @@
     padding: 5px;
     width: 300px;
     border-radius: 100%;
+
+    
+}
+
+.derecha{
+    transition-duration: 620ms;
+    transform: rotateZ(40deg);
+}
+.izquierda{
+    transition-duration: 620ms;
+    transform: rotateZ(-40deg);
 }
 
 .img-sobreMi{
@@ -17,11 +28,7 @@
     border: 2px solid #6A98F0;
     mix-blend-mode: multiply;
     overflow: hidden;
-
-    animation-name: rotation;
-	animation-duration: 3s;
-	animation-iteration-count: infinite;
-	animation-timing-function: linear;
+    
 }
 .img-sobreMi img{
     display:block;
@@ -29,14 +36,6 @@
     height:auto;
 }
 
-@keyframes rotation {
-    0% {
-      transform:rotate(0deg);
-    }
-    100% {
-      transform:rotate(360deg);
-    }
-  }
 
 
 
