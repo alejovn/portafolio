@@ -161,58 +161,6 @@ const Carousel_ = (props) => {
                         </div>
                     </div>
                 </div>
-                <div>
-                    <div className={"experiencia_ experiencia" + props.color}>
-                        <div className="ex-content">
-                            <h4>Tic Tac Toe con React</h4>
-                            <div className="img-experiencia">
-                                <div className="img-ex2">
-                                    <img src="img/react.png" />
-                                </div>
-                                <div className="img-ex2-mas">
-                                    <img src="img/plus_.png" />
-                                </div>
-                                <div className="img-ex2">
-                                    <img src="img/gato.png" />
-                                </div>
-                            </div>
-                            <div className="descripcion-ex">
-                                <p>Juego Tic Tac Toe ó Gato, Desarrolado en react, se puede jugar persona vs persona,
-                                    o persona vs maquina (IA)
-                                </p>
-                            </div>
-                        </div>
-                        <div className={"footer-experiencia_ footer" + props.color}>
-                            <a href="https://alejovn.github.io/Gato/" target="_blank">Tic tac toe</a>
-                        </div>
-                    </div>
-                </div>
-                <div>
-                    <div className={"experiencia_ experiencia" + props.color}>
-                        <div className="ex-content">
-                            <h4>Tic Tac Toe con React</h4>
-                            <div className="img-experiencia">
-                                <div className="img-ex2">
-                                    <img src="img/react.png" />
-                                </div>
-                                <div className="img-ex2-mas">
-                                    <img src="img/plus_.png" />
-                                </div>
-                                <div className="img-ex2">
-                                    <img src="img/gato.png" />
-                                </div>
-                            </div>
-                            <div className="descripcion-ex">
-                                <p>Juego Tic Tac Toe ó Gato, Desarrolado en react, se puede jugar persona vs persona,
-                                    o persona vs maquina (IA)
-                                </p>
-                            </div>
-                        </div>
-                        <div className={"footer-experiencia_ footer" + props.color}>
-                            <a href="https://alejovn.github.io/Gato/" target="_blank">Tic tac toe</a>
-                        </div>
-                    </div>
-                </div>
             </Slider>
             <ModalExperiencia modalIsOpen={modalIsOpen} setIsOpen={setIsOpen} />
         </div>
