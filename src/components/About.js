@@ -12,7 +12,7 @@ const About = (props) => {
                             <span className="l-br-s">-</span>
                             <h1 className="h1-titulo"><span>Hola,</span> Soy Alejandro.</h1>
                             <Slide />
-                            <a href="CV_Alejandro_ValenciaNavarro.pdf" download="CV_Alejandro_ValenciaNavarro.pdf">
+                            <a href="CV_Alejandro.pdf" download="CV_Alejandro.pdf">
                                 <button className="btn btn-curriculo">Obtén mi CV <i class="fa fa-download" aria-hidden="true"></i></button>
                             </a>
                         </div>
