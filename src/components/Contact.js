@@ -1,6 +1,7 @@
 import { useForm } from 'react-hook-form';
 import React, { useState, useRef } from 'react';
 import { init, sendForm } from 'emailjs-com';
+import swal from 'sweetalert';
 init('user_bFzY9PgFVWSGIkOxJVtHP');
 
 const Contact = (props) => {
@@ -20,7 +21,7 @@ const Contact = (props) => {
         sendForm('service_vbm7rik', 'template_3aacv2n', '#contact-form')
             .then(function (response) {
                 console.log('SUCCESS!', response.status, response.text);
-                alert("Mensaje enviado")
+                swal("¡Mensaje enviado!", "Dale clic al botón", "success");
                 reset();
             }, function (error) {
                 console.log('FAILED...', error);
