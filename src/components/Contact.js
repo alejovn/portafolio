@@ -142,7 +142,7 @@ const Contact = (props) => {
 
                                             <div className="content">
                                                 <h1>Email</h1>
-                                                <span>alejandrovalencia2011@gmial.com</span>
+                                                <span>alejandrovalencia2011@gmail.com</span>
                                             </div>
                                         </a>
 

@@ -18,7 +18,7 @@ const Sobremi = (props) => {
                     </div>
                     <div className="col-7">
                         <div className="titulo-quien-soy">
-                            <h1>Quién soy?</h1>
+                            <h1>¿Quién soy?</h1>
                         </div>
                         <div className="linea-c"></div>
 
