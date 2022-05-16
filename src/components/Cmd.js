@@ -31,7 +31,7 @@ class Cmd extends Component {
       } else {
         this.setState({ indice_imagen: this.state.indice_imagen + 1 });
       }
-    }, 700);
+    }, 200);
 
     this.setState({ id_interval: id_interval });
   }

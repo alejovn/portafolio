@@ -13,10 +13,16 @@
     left: 0;
 }
 
-.container path{
+.container .pathDark{
     stroke:none; 
-    fill:rgba(19, 167, 212, 0.7);
+    fill:rgba(5, 5, 5, 0.9);
 }
+.container .pathLight{
+    stroke:none; 
+    fill:rgba(19, 167, 212, 0.5);
+}
+
+
 
 @media screen and (max-width: 850px) {
     .container svg {

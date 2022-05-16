@@ -40,7 +40,7 @@ function App() {
       <div className="container">
         <svg viewBox="0 0 500 500"
           preserveAspectRatio="xMinYMin meet">
-          <path d="M0, 120 C150, 220 350,0 500, 120 L500, 00 L0, 0 Z">
+          <path className={"path"+color} d="M0, 120 C150, 220 350,0 500, 120 L500, 00 L0, 0 Z">
           </path>
         </svg>
         <About color={color} />
